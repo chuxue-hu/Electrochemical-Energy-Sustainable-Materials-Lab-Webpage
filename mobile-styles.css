@@ -1,4 +1,27 @@
 @media screen and (max-width: 768px) {
+    .openings-page {
+        width: 90%;
+        padding: 100px 0 50px;
+    }
+
+    .openings-intro {
+        margin-bottom: 2.25rem;
+    }
+
+    .openings-intro h1 {
+        font-size: 2.2rem;
+    }
+
+    .openings-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .opening-card,
+    .apply-panel {
+        padding: 1.5rem;
+    }
+
     /* 调整全局字体大小 */
     body {
         font-size: 13px;
