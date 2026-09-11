@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="8nb93kfj9moBlzuvD9Th5MRKcJukcxZXL3I1pnxRcnw" />
+    <meta name="description" content="Computational Materials Lab at Westlake University focuses on computational approaches to material design, AI-driven materials discovery, and solid-state battery materials research." />
+    <meta name="keywords" content="computational materials, material design, Westlake University, solid-state battery, AI materials discovery, Yizhou Zhu, materials science, computational chemistry" />
+    <title>Welcome | Computational Materials Lab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?75d7e9299aa5a5c8c786606e03276328"; 
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            overflow: hidden;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .logo {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            z-index: 100;
+            width: 200px;
+            height: auto;
+        }
+
+        .cover-container {
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .slider {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .slide.active {
+            opacity: 1;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .content {
+            max-width: 1000px;
+            padding: 0 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .title-section {
+            opacity: 1;
+            transform: none;
+            animation: none;
+        }
+
+        .title-container {
+            display: inline-block;
+            max-width: 100%;
+        }
+
+        h1 {
+            font-size: 4em;
+            font-family: 'Playfair Display', serif;
+            font-weight: 400;
+            letter-spacing: -0.02em;
+            line-height: 1.3;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            font-weight: 300;
+            letter-spacing: 0.1em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            margin-bottom: 50px;
+            opacity: 0;
+            animation: fadeIn 0.5s ease forwards 4s;
+        }
+
+        .enter-section {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 1s ease forwards 0.6s;
+            margin-top: 50px;
+        }
+
+        .enter-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px 40px;
+            font-size: 1.1em;
+            color: white;
+            text-decoration: none;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 30px;
+            transition: all 0.4s ease;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .enter-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .scroll-hint {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            opacity: 0;
+            animation: fadeIn 1s ease forwards 1s;
+        }
+
+        .scroll-hint i {
+            font-size: 1.2em;
+            animation: bounce 2s infinite;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .scroll-text {
+            font-size: 0.9em;
+            letter-spacing: 0.1em;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-8px); }
+            60% { transform: translateY(-4px); }
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: white }
+        }
+
+        @keyframes removeCaret {
+            to { border-right-color: transparent; }
+        }
+
+        .typing-subtitle {
+            display: inline-block;
+            border-right: 2px solid white;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+            font-size: 2.2em;
+            animation: 
+                typing 2s steps(30) 1s forwards,
+                blink-caret 0.75s step-end 8,
+                removeCaret 0s 5s forwards;
+            font-family: 'Times New Roman', serif;
+            font-weight: 300;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                width: 120px;
+                top: 20px;
+                left: 20px;
+            }
+
+            .content {
+                padding: 0 15px;
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 2.2em;
+                line-height: 1.2;
+                margin-bottom: 15px;
+            }
+
+            .typing-subtitle {
+                font-size: 1.6em !important;
+            }
+
+            .subtitle-container {
+                margin: 25px 0 30px 0;
+            }
+
+            .enter-section {
+                margin-top: 30px;
+            }
+
+            .enter-btn {
+                padding: 12px 25px;
+                font-size: 1em;
+            }
+
+            .scroll-hint {
+                bottom: 25px;
+            }
+
+            .scroll-text {
+                font-size: 0.8em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .typing-subtitle {
+                font-size: 1.2em !important;
+            }
+
+            .enter-btn {
+                padding: 10px 20px;
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-height: 600px) and (orientation: landscape) {
+            .logo {
+                width: 100px;
+                top: 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+                margin-bottom: 10px;
+            }
+
+            .typing-subtitle {
+                font-size: 1em !important;
+            }
+
+            .subtitle-container {
+                margin: 20px 0 25px 0;
+            }
+
+            .enter-section {
+                margin-top: 20px;
+            }
+
+            .scroll-hint {
+                bottom: 15px;
+            }
+        }
+
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            .logo {
+                image-rendering: -webkit-optimize-contrast;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .overlay {
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+            }
+        }
+
+        .title-section h1 {
+            opacity: 0;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        .subtitle-container {
+            margin: 40px 0 40px 0;
+        }
+
+        .visit-stats {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.85em;
+            font-family: 'Inter', sans-serif;
+            text-align: right;
+            opacity: 0;
+            animation: fadeIn 1s ease forwards 2s;
+        }
+
+        .visit-stats span {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .visit-stats i {
+            font-size: 0.9em;
+            margin-right: 3px;
+        }
+
+        @media (max-width: 768px) {
+            .visit-stats {
+                bottom: 15px;
+                right: 15px;
+                font-size: 0.75em;
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.westlake.edu.cn" aria-label="Westlake University Link">
+        <img src="images/westlake_bottom.png" alt="Westlake University" class="logo">
+    </a>
+    <div class="cover-container">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('images/westlake_image.jpg')"></div>
+            <div class="slide" style="background-image: url('images/westlake_image2.jpg')"></div>
+            <div class="slide" style="background-image: url('images/westlake_image3.jpg')"></div>
+            <div class="slide" style="background-image: url('images/westlake_image4.jpg')"></div>
+            <div class="slide" style="background-image: url('images/westlake_image5.jpg')"></div>
+            <div class="slide" style="background-image: url('images/westlake_image6.jpg')"></div>
+        </div>
+        <div class="overlay">
+            <div class="content">
+                <div class="title-section">
+                    <h1>Computational Approaches to Material Design</h1>
+                    <div class="subtitle-container">
+                        <p class="typing-subtitle"><i>Comp. Mater. Lab.</i> @ Westlake University</p>
+                    </div>
+                </div>
+                <div class="enter-section">
+                    <a href="home.html" class="enter-btn">
+                        <i class="fas fa-arrow-right"></i>
+                        Enter Lab
+                    </a>
+                </div>
+            </div>
+            <div class="scroll-hint">
+                <i class="fas fa-chevron-down"></i>
+                <span class="scroll-text">Scroll to Enter</span>
+            </div>
+            <div class="visit-stats">
+                <span id="busuanzi_container_site_pv" style="display: none">
+                    <i class="fas fa-eye"></i>
+                    Views: <span id="busuanzi_value_site_pv">0</span>
+                </span>
+                <span id="busuanzi_container_site_uv" style="display: none">
+                    <i class="fas fa-user"></i>
+                    Visitors: <span id="busuanzi_value_site_uv">0</span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // 每5秒切换一次幻灯片
+        setInterval(nextSlide, 5000);
+
+        // 监听滚轮事件
+        window.addEventListener('wheel', function(e) {
+            if (e.deltaY > 0) { // 向下滚动
+                window.location.href = 'home.html';
+            }
+        });
+
+        // 监听触摸事件（针对移动设备）
+        let touchStartY;
+        window.addEventListener('touchstart', function(e) {
+            touchStartY = e.touches[0].clientY;
+        });
+
+        window.addEventListener('touchend', function(e) {
+            const touchEndY = e.changedTouches[0].clientY;
+            if (touchStartY > touchEndY + 50) { // 向上滑动
+                window.location.href = 'home.html';
+            }
+        });
+
+        // 修改访问统计显示控制
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(() => {
+                document.querySelector('#busuanzi_container_site_pv').style.display = 'inline-flex';
+                document.querySelector('#busuanzi_container_site_uv').style.display = 'inline-flex';
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

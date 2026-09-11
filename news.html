@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News | Computational Materials Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="mobile-styles.css">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?75d7e9299aa5a5c8c786606e03276328"; 
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="https://www.westlake.edu.cn" aria-label="Westlake University Link">
+                    <img src="images/westlake_logo.png" alt="Westlake University">
+                </a>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="news.html" class="active" aria-current="page">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="news-page">
+        <h1>News</h1>
+        
+        <div class="news-filters">
+            <button class="filter-btn active" data-year="all">All</button>
+            <button class="filter-btn" data-year="2026">2026</button>              
+            <button class="filter-btn" data-year="2025">2025</button>            
+            <button class="filter-btn" data-year="2024">2024</button>
+            <button class="filter-btn" data-year="2023">2023</button>
+        </div>
+
+        <div class="news-list" id="news-list">
+            <!-- News will be loaded dynamically -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <div class="contact-copy">
+                <h3>Contact Us</h3>
+                <p>Address: Yungu Campus, Westlake University, 600 Dunyu Road, Xihu District, Hangzhou</p>
+                <p>Postal Code: 310030</p>
+                <p>Email: zhuyizhou@westlake.edu.cn</p>
+            </div>
+            <div class="wechat-card">
+                <img src="images/wechataccount.jpg" alt="Scan to follow the Computational Materials Lab WeChat account" loading="lazy" decoding="async">
+                <p>Follow us on WeChat</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="nav.js"></script>
+    <script src="news.js"></script>
+</body>
+</html>

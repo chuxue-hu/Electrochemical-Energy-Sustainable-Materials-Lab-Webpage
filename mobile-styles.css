@@ -1,0 +1,1680 @@
+@media screen and (max-width: 768px) {
+    /* 调整全局字体大小 */
+    body {
+        font-size: 13px;
+    }
+
+    /* 导航栏样式优化 */
+    .navbar {
+        flex-direction: column;
+        padding: 5px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: white;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        min-height: 50px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 3px 10px;
+    }
+
+    .logo img {
+        height: 30px;
+        width: auto;
+    }
+
+    .nav-links {
+        display: none;  /* 初始状态隐藏 */
+        flex-direction: column;
+        width: 100%;
+        background: white;
+        padding: 0;
+    }
+
+    /* 当active类被添加时显示导航菜单 */
+    .nav-links.active {
+        display: flex !important;  /* 使用!important确保显示 */
+    }
+
+    .nav-links li {
+        margin: 0;
+        width: 100%;
+        border-top: 1px solid #eee;
+    }
+
+    .nav-links li a {
+        padding: 12px;
+        display: block;
+        text-align: center;
+        color: #333;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    /* 为fixed header添加内容偏移 */
+    body {
+        padding-top: 0;
+    }
+
+    /* Hero section优化 */
+    .hero {
+        margin-top: 0;
+        height: 50vh;
+        position: relative;
+    }
+
+    .hero-content {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 18px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+        padding: 0 10px;
+        white-space: normal; /* 允许标题换行 */
+    }
+
+    .hero-content p {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
+    /* About section优化 */
+    .about-section {
+        padding: 20px 15px;
+    }
+
+    .about-section h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-text p {
+        font-size: 13px;
+        line-height: 1.6;
+        margin-bottom: 15px;
+    }
+
+    .about-image {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    /* Research section优化 */
+    .research-section {
+        padding: 20px 15px;
+    }
+
+    .research-section h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .highlight-card {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .highlight-card h3 {
+        font-size: 16px;
+    }
+
+    .highlight-card p {
+        font-size: 13px;
+    }
+
+    /* PI Card样式重新优化 */
+    .pi-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin: 5px;
+        gap: 10px;
+        width: calc(100% - 10px);
+    }
+
+    .pi-image {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .pi-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .pi-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pi-info h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .pi-info .title {
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+
+    .pi-info .affiliation {
+        font-size: 13px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .pi-info .bio {
+        font-size: 13px;
+        line-height: 1.5;
+        text-align: justify;
+        padding: 0 5px;
+    }
+
+    /* Members部分的统样式 */
+    .member-slider-container {
+        width: 100% !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    .member-slider {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .member-card {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .member-photo {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 8px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .member-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .member-info {
+        text-align: center;
+        width: 100%;
+    }
+
+    .member-info h3 {
+        font-size: 14px;
+        margin: 5px 0;
+        color: #333;
+    }
+
+    .member-info .period {
+        font-size: 12px;
+        color: #0056b3;
+        margin: 2px 0;
+        font-weight: 500;
+    }
+
+    /* 隐藏不需要的元素 */
+    .member-info .education,
+    .member-info .current,
+    .member-social,
+    .slider-btn {
+        display: none !important;
+    }
+
+    /* 特小屏幕优化 */
+    @media screen and (max-width: 360px) {
+        .member-slider {
+            grid-template-columns: 1fr;
+        }
+
+        .member-card {
+            min-width: 200px;
+        }
+
+        .member-photo {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    /* Publications section优化 */
+    .publication-card {
+        padding: 15px;
+    }
+
+    .publication-card h4 {
+        font-size: 16px;
+    }
+
+    .publication-card p {
+        font-size: 13px;
+    }
+
+    /* News section优化 */
+    .news-card {
+        padding: 15px;
+    }
+
+    .news-card h3 {
+        font-size: 16px;
+    }
+
+    .news-card p {
+        font-size: 13px;
+    }
+
+    /* Stats section优化 */
+    .stats-container {
+        padding: 20px 15px;
+    }
+
+    .stat-item {
+        padding: 10px;
+    }
+
+    .stat-number {
+        font-size: 24px;
+    }
+
+    .stat-item p {
+        font-size: 13px;
+    }
+
+    /* Footer优化 */
+    footer {
+        padding: 20px 15px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.4rem;
+        text-align: center;
+    }
+
+    .contact-copy {
+        width: 100%;
+    }
+
+    .contact-info h3::after {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer h3 {
+        font-size: 17px;
+    }
+
+    footer p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .wechat-card {
+        padding: 0.8rem;
+    }
+
+    .wechat-card img {
+        width: 104px;
+        height: 104px;
+    }
+
+    .wechat-card p {
+        font-size: 12px;
+    }
+
+    /* 滑动按钮优化 */
+    .slider-btn,
+    .pub-slider-btn,
+    .news-slider-btn {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    /* View All按钮优化 */
+    .view-all-btn {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    /* 调整其他section的上边距，避免被fixed header遮挡 */
+    .hero,
+    .about-section,
+    .research-section,
+    .people-section,
+    .publications-section,
+    .news-section {
+        margin-top: 15px;
+    }
+
+    /* 汉堡菜单按钮样式优化 */
+    .mobile-menu-btn {
+        display: block !important; /* 确保按钮显示 */
+        background: transparent;
+        border: none;
+        padding: 8px;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .mobile-menu-btn i {
+        font-size: 20px;
+        color: #333;
+    }
+
+    /* Contact部分样式优化 */
+    .contact-info {
+        padding: 15px;
+    }
+
+    .contact-info h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .contact-info p {
+        font-size: 12px;
+        line-height: 1.4;
+        margin-bottom: 8px;
+    }
+
+    /* 隐藏社交图标 */
+    .social-links {
+        display: none;
+    }
+
+    /* 其他卡片样式调整 */
+    .member-card,
+    .publication-card,
+    .news-card,
+    .highlight-card {
+        padding: 10px;
+        margin: 5px;
+        width: calc(100% - 10px);
+    }
+
+    /* Research section调整 */
+    .research-section {
+        padding: 15px;
+    }
+
+    .highlights-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 20px;
+        max-width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+
+    .highlight-card {
+        padding: 20px;
+        margin: 0;
+        width: auto;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .highlight-card h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .highlight-card p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    /* Publications和News section的边距也相应调整 */
+    .publications-container,
+    .news-container {
+        padding: 0 20px;
+        max-width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+
+    .publication-card,
+    .news-card {
+        width: auto;
+        margin: 10px 0;
+    }
+
+    /* Members section的边距调整 */
+    .member-slider {
+        padding: 0 20px;
+        max-width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+
+    /* Stats section的边距调整 */
+    .stats-container {
+        padding: 15px 20px;
+        max-width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+
+    /* 调整各个section的标题间距 */
+    section h2 {
+        margin-bottom: 15px;
+        padding: 0 10px;
+    }
+
+    /* 其他成员卡片中也隐藏社交图标 */
+    .member-card .member-social {
+        display: none;
+    }
+
+    /* 统一所有section标题样式 */
+    section h2,
+    .people-section h2 {  /* 特别指定people-section的h2 */
+        font-size: 20px !important; /* 使用!important确保覆盖其他样式 */
+        text-align: center;
+        margin: 20px 0 15px 0;
+        padding: 0;
+        color: #333;
+        font-weight: 600;
+    }
+
+    /* Members部分的全新样式 */
+    .members-section {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .member-slider {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: 90% !important;  /* 设置整体宽度 */
+        margin: 0 auto !important;  /* 整体居中 */
+        justify-content: center !important;  /* 网格内容居中 */
+    }
+
+    .member-card {
+        width: 100% !important;  /* 确保卡片占满网格单元格 */
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box;
+    }
+
+    .member-photo {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 8px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .member-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .member-info {
+        text-align: center;
+        width: 100%;
+    }
+
+    .member-info h3 {
+        font-size: 14px;
+        margin: 5px 0;
+        color: #333;
+    }
+
+    .member-info .period {
+        font-size: 12px;
+        color: #0056b3;
+        margin: 2px 0;
+        font-weight: 500;
+    }
+
+    /* 隐藏不需要的元素 */
+    .member-info .education,
+    .member-info .current,
+    .member-social,
+    .member-slider-container .slider-btn {
+        display: none;
+    }
+
+    /* 移除滑动按钮 */
+    #members .slider-btn.prev,
+    #members .slider-btn.next {
+        display: none !important;
+    }
+
+    /* Members部分的统一样式 - 使用最具体的选择器 */
+    .members-section {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .member-slider-container {
+        width: 90% !important;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+    }
+
+    .member-slider {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .member-card {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .member-photo {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 8px;
+    }
+
+    .member-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .member-info {
+        text-align: center;
+        width: 100%;
+    }
+
+    .member-info h3 {
+        font-size: 14px;
+        margin: 5px 0;
+        color: #333;
+    }
+
+    .member-info .period {
+        font-size: 12px;
+        color: #0056b3;
+        margin: 2px 0;
+        font-weight: 500;
+    }
+
+    /* 隐藏不需要的元素 */
+    .member-info .education,
+    .member-info .current,
+    .member-social,
+    .member-slider-container .slider-btn {
+        display: none;
+    }
+
+    /* 特小屏幕优化 */
+    @media screen and (max-width: 360px) {
+        .member-slider {
+            grid-template-columns: 1fr;
+        }
+
+        .member-photo {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    /* Research页面的移动端样式 */
+    .research-page {
+        padding-top: 50px;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Research overview分调整 */
+    .research-overview {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    /* 确保highlights部分的卡片竖向排列 */
+    .research-overview .highlights-grid {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .research-overview .highlight-card {
+        width: 100%;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 15px;
+        margin: 0;
+    }
+
+    .highlight-card h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .highlight-card p {
+        font-size: 13px;
+        line-height: 1.5;
+        color: #666;
+    }
+
+    /* 研究领域详情部分 */
+    .research-area {
+        width: 100%;
+        margin: 20px auto;
+        box-shadow: none;
+    }
+
+    .research-content {
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 15px;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* 统一字体大小 */
+    .research-content h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .research-content p,
+    .research-content ul li,
+    .research-content ol li {
+        font-size: 13px;
+        line-height: 1.5;
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+    .research-text {
+        margin-bottom: 15px;
+    }
+
+    .research-text ul,
+    .research-text ol {
+        padding-left: 15px;
+        margin-bottom: 10px;
+    }
+
+    .research-image {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .research-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    /* 移除reverse类在移动端的效果 */
+    .research-content.reverse {
+        flex-direction: column;
+    }
+
+    /* People页面的移动端样式 */
+    .people-page {
+        padding-top: 100px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* 调整标题大小 */
+    .people-category h2 {
+        font-size: 18px !important;
+        text-align: center;
+        margin: 0 0 30px 0;
+        color: #333;
+        font-weight: 600;
+    }
+
+    /* PI卡片样式调整 */
+    .section-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pi-card {
+        width: 80vw;
+        margin: 0 auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .pi-image {
+        width: 160px;
+        height: 160px;
+        margin: 0 auto 15px;
+    }
+
+    .pi-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    /* 成员卡片式调整 */
+    .members-grid {
+        display: flex !important;  /* 改为flex布局 */
+        flex-direction: column !important;  /* 单列布局 */
+        gap: 15px;
+        width: 100%;
+    }
+
+    .members-grid .member-card {
+        width: 90% !important;  /* 设置卡片宽度 */
+        margin: 0 auto !important;  /* 居中显示 */
+        padding: 15px !important;
+    }
+
+    /* 显示教育背景信息 */
+    .members-grid .member-card .member-info .education,
+    .members-grid .member-card .member-info .current {
+        display: block !important;
+        font-size: 12px;
+        color: #666;
+        margin: 5px 0;
+    }
+
+    /* 社交图标样式调整 */
+    .members-grid .member-card .member-social {
+        display: flex !important;  /* 使用flex布局 */
+        justify-content: center !important;  /* 水平居中 */
+        gap: 15px;  /* 图标之间的间距 */
+        margin-top: 10px;
+    }
+
+    .members-grid .member-card .member-social .social-link {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+    }
+
+    /* 移除之前可能影响布局的样式 */
+    .members-grid .member-card .member-social {
+        flex-direction: row !important;  /* 确保图标平排列 */
+    }
+
+    /* 特小屏幕优 */
+    @media screen and (max-width: 360px) {
+        .members-grid {
+            grid-template-columns: 1fr;
+        }
+
+        .pi-card {
+            width: 90%;  /* 特小屏幕时稍微放宽一点 */
+        }
+    }
+
+    /* 统一所有页面的主标题大小 */
+    .publications-page h1,
+    .research-page h1,
+    .people-page h1,
+    .gallery-page h1 {
+        font-size: 22px;
+        text-align: center;
+        margin: 20px 0;
+        color: #333;
+    }
+
+    /* Gallery页面的移动端样式优化 */
+    .gallery-page {
+        padding-top: 120px !important;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .gallery-page h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 600;
+        color: #333;
+    }
+
+    /* 图片网格布调整为单列 */
+    .gallery-grid {
+        display: grid;
+        grid-template-columns: 1fr; /* 为单列 */
+        gap: 15px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .gallery-item {
+        width: 100%;
+        margin: 0;
+        background: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .gallery-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9; /* 统一图片比例 */
+    }
+
+    .gallery-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .gallery-caption {
+        padding: 12px;
+        font-size: 13px;
+        color: #666;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    /* Gallery页面导航栏样式 */
+    .gallery-page .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: white;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        padding: 10px;
+    }
+
+    .gallery-page .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .gallery-page .logo img {
+        height: 30px;
+    }
+
+    .gallery-page .mobile-menu-btn {
+        display: block !important;
+        background: none;
+        border: none;
+        font-size: 20px;
+        color: #333;
+        cursor: pointer;
+    }
+
+    .gallery-page .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .gallery-page .nav-links.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery-page .nav-links li {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #eee;
+    }
+
+    .gallery-page .nav-links li a {
+        display: block;
+        padding: 12px;
+        color: #333;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .gallery-page .nav-links li a.active {
+        color: #0056b3;
+    }
+
+    /* 特小屏幕适配 */
+    @media screen and (max-width: 360px) {
+        .gallery-page {
+            width: 98%;
+        }
+
+        .gallery-caption {
+            font-size: 12px;
+            padding: 10px;
+        }
+    }
+
+    /* 图片点击放大效果相关样式 */
+    .lightbox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .lightbox img {
+        max-width: 90%;
+        max-height: 90vh;
+        object-fit: contain;
+    }
+
+    .lightbox.active {
+        display: flex;
+    }
+
+    /* News页面的移动端样式优化 */
+    .news-page {
+        padding-top: 120px !important;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .news-page h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: 600;
+        color: #333;
+    }
+
+    /* News卡片样式重新设计 */
+    .news-page .news-item {
+        width: 85% !important;
+        margin: 0 auto 15px auto !important;
+        padding: 15px !important;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 4px;  /* 控制各元素之间的间距 */
+    }
+
+    /* 标题样式 */
+    .news-page .news-item h3 {
+        font-size: 14px !important;
+        line-height: 1.4;
+        margin: 0 0 6px 0 !important;
+        color: #333;
+        font-weight: 600;
+    }
+
+    /* 日期��式 */
+    .news-page .date {
+        font-size: 11px !important;
+        color: #0056b3;
+        margin: 0 0 8px 0 !important;
+        font-style: italic;
+    }
+
+    /* 内容缩略样式 */
+    .news-page .news-content {
+        font-size: 12px !important;
+        line-height: 1.5;
+        color: #666;
+        margin: 0 !important;  /* 移除边距 */
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    /* Read More链接样式 */
+    .news-page .news-link {
+        font-size: 11px !important;
+        color: #0056b3;
+        text-decoration: none;
+        font-weight: 500;
+        margin-top: 4px !important;  /* 只保留上边距 */
+        padding: 4px 8px !important;
+        border-radius: 12px !important;
+        border: 1px solid #0056b3;
+        align-self: flex-start;
+        display: inline-block;
+    }
+
+    /* 移除之前的箭头 */
+    .news-page .news-link:after {
+        content: none;
+    }
+
+    /* 筛选按钮样式统一 */
+    .news-filters .filter-btn,
+    .news-page .filter-btn {
+        font-size: 11px !important;
+        padding: 4px 8px !important;
+        margin: 0 3px !important;
+        border-radius: 12px !important;
+        border: 1px solid #ddd;
+        background: #fff;
+        color: #666;
+    }
+
+    .news-filters .filter-btn.active,
+    .news-page .filter-btn.active {
+        background: #0056b3;
+        color: #fff;
+        border-color: #0056b3;
+    }
+
+    /* 特小屏幕适配 */
+    @media screen and (max-width: 360px) {
+        .news-page .news-item {
+            width: 90% !important;
+            padding: 12px !important;
+        }
+    }
+
+    /* 导航栏样式 */
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: white;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        padding: 10px;
+    }
+
+    .mobile-menu-btn {
+        display: block !important;
+        background: none;
+        border: none;
+        font-size: 20px;
+        color: #333;
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        padding: 0;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #eee;
+    }
+
+    .nav-links li a {
+        display: block;
+        padding: 12px;
+        color: #333;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .nav-links li a.active {
+        color: #0056b3;
+    }
+
+    /* Publications页面的移动端样式优化 */
+    .publications-page {
+        padding-top: 120px !important;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .publications-page h1 {
+        font-size: 20px; /* 增大主标题 */
+        margin-bottom: 15px;
+        text-align: center;
+        font-weight: 600;
+        color: #333;
+    }
+
+    /* Publications页面卡片样式优化 */
+    .pub-item {
+        padding: 10px !important;  /* 减小整体内边距 */
+        margin: 0 0 10px 0 !important;
+    }
+
+    .pub-content {
+        margin-top: 4px !important;  /* 进一步减小图片和内容之间的距离 */
+    }
+
+    .pub-content h3 {
+        font-size: 13px !important;  /* 减小标题字体 */
+        line-height: 1.3;
+        margin-bottom: 4px !important;  /* 减小标题和作者之间的间距 */
+    }
+
+    .pub-content .authors {
+        font-size: 11px !important;  /* 减小作者字体 */
+        line-height: 1.3;
+        margin-bottom: 3px !important;  /* 减小作者和期刊之间的间距 */
+    }
+
+    .pub-content .journal {
+        font-size: 11px !important;  /* 减小期刊字体 */
+        margin-bottom: 4px !important;  /* 减小期刊和摘要之间的间距 */
+    }
+
+    .pub-content .pub-abstract {
+        margin-bottom: 6px !important;  /* 减小摘要和DOI链接之间的间距 */
+    }
+
+    .pub-content .pub-abstract p {
+        font-size: 11px !important;  /* 减小摘要字体 */
+        line-height: 1.3;
+        margin-bottom: 4px !important;
+    }
+
+    .pub-links {
+        margin-top: 4px !important;  /* 减小链接区域的上边距 */
+    }
+
+    .pub-link {
+        font-size: 11px !important;  /* 减小链接字体 */
+        padding: 3px 6px !important;
+        margin-right: 6px !important;
+    }
+
+    /* 年份筛选按钮 */
+    .pub-filters {
+        margin-bottom: 15px;  /* 减小底部间距 */
+        text-align: center;
+    }
+
+    .pub-filters .filter-btn {
+        font-size: 11px !important;  /* 减小字体大小 */
+        padding: 4px 8px !important;  /* 减小内边距 */
+        margin: 0 3px !important;  /* 减小按钮之间的间距 */
+        border-radius: 12px !important;  /* 稍微减小圆角 */
+    }
+
+    /* 特小屏幕适配 */
+    @media screen and (max-width: 360px) {
+        .publications-page {
+            width: 98%;
+        }
+
+        .pub-content h3 {
+            font-size: 13px;
+        }
+
+        .pub-content .authors,
+        .pub-content .journal,
+        .pub-content .pub-abstract p {
+            font-size: 11px;
+        }
+    }
+
+    /* Gallery页面的移动端样式优化 */
+    .gallery-page {
+        padding-top: 120px !important;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* 时间线布局调整为单列 */
+    .timeline {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding: 0;
+        opacity: 1; /* 确保内容可见 */
+    }
+
+    .timeline-item {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* 图片卡片样式 */
+    .gallery-card {
+        width: 100%;
+        margin: 0 0 20px 0;
+        background: #fff;
+        border-radius: 12px; /* 增加卡片圆角 */
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .gallery-image,
+    .gallery-images-container {
+        width: 100%;
+        position: relative;
+        margin: 0; /* 移除可能的边距 */
+        padding: 0; /* 移除可能的内边距 */
+    }
+
+    .gallery-image img,
+    .gallery-image-stack img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        display: block; /* 移除图片底部的空隙 */
+        opacity: 1; /* 确保图片可见 */
+    }
+
+    /* 在移动端隐藏分类标签 */
+    .category-tag {
+        display: none;
+    }
+
+    /* 日期标签样式 */
+    .date-tag {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 11px;
+        padding: 4px 10px;
+        background: rgba(255, 255, 255, 0.9);
+        color: #0056b3;
+        border-radius: 15px;
+        z-index: 2;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    /* 图片叠加层样式 */
+    .image-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0));
+        padding: 20px 15px 15px;
+        color: white;
+    }
+
+    .image-overlay h3 {
+        font-size: 16px;
+        margin-bottom: 6px;
+        color: white;
+    }
+
+    .image-overlay p {
+        font-size: 13px;
+        color: rgba(255,255,255,0.9);
+    }
+
+    /* 筛选按钮样式 */
+    .gallery-filters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin: 0 0 20px 0;
+    }
+
+    .filter-btn {
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 1px solid #ddd;
+        border-radius: 15px;
+        background: #fff;
+        color: #666;
+        cursor: pointer;
+    }
+
+    .filter-btn.active {
+        background: #0056b3;
+        color: #fff;
+        border-color: #0056b3;
+    }
+
+    /* Publications section移动端显示调整 */
+    .publications-section .publications-container {
+        width: 100%;
+        padding: 0 10px;
+        overflow: hidden;  /* 防止溢出 */
+    }
+
+    .publications-section .publications-container .publications-grid {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: block !important;
+        overflow: visible;  /* 确保内容可见 */
+    }
+
+    .publications-section .publications-container .publications-grid .publication-card {
+        width: 80%;  /* 直接设置卡片宽度为80% */
+        margin: 0 auto;  /* 居中显示 */
+        box-sizing: border-box;  /* 确保padding计入宽度 */
+    }
+
+    .publications-section .publications-container .publications-grid .publication-card:not(:first-child) {
+        display: none !important;
+    }
+
+    .publications-section .pub-slider-btn {
+        display: none !important;
+    }
+
+    /* News section移动端显示调整 */
+    .news-section .news-container {
+        width: 100%;
+        padding: 0 10px;
+        overflow: hidden;  /* 防止溢出 */
+    }
+
+    .news-section .news-container .news-grid {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: block !important;
+        overflow: visible;  /* 确保内容可见 */
+    }
+
+    .news-section .news-container .news-grid .news-card {
+        width: 80%;  /* 直接设置卡片宽度为80% */
+        margin: 0 auto;  /* 居中显示 */
+        box-sizing: border-box;  /* 确保padding计入宽度 */
+    }
+
+    .news-section .news-container .news-grid .news-card:not(:first-child) {
+        display: none !important;
+    }
+
+    .news-section .news-slider-btn {
+        display: none !important;
+    }
+
+    /* Members部分的移动端样式调整 */
+    .member-info .education,
+    .member-info .current,
+    .member-social {
+        display: none !important;  /* 强制隐藏教育背景和社交链接 */
+    }
+
+    .member-card {
+        padding: 10px !important;  /* 减小卡片内边距 */
+    }
+
+    .member-info {
+        text-align: center !important;
+    }
+
+    .member-info h3 {
+        margin: 5px 0 2px 0 !important;  /* 调整名字和职位之间的间距 */
+    }
+
+    .member-info .period {
+        margin: 0 !important;  /* 调整职位的边距 */
+        padding: 0 !important;
+    }
+
+    /* 确保滑动按钮在移动端隐藏 */
+    .member-slider-container .slider-btn {
+        display: none !important;
+    }
+
+    /* index.html 中的成员卡片样式 */
+    .member-slider .member-card {
+        padding: 10px !important;
+    }
+
+    .member-slider .member-card .member-info .education,
+    .member-slider .member-card .member-info .current,
+    .member-slider .member-card .member-social {
+        display: none !important;
+    }
+
+    /* people.html 中的成员卡片样式 */
+    .members-grid .member-card {
+        padding: 15px !important;
+    }
+
+    .members-grid .member-card .member-info .education,
+    .members-grid .member-card .member-info .current,
+    .members-grid .member-card .member-social {
+        display: block !important;  /* 显示完整信息 */
+    }
+
+    .members-grid .member-card .member-info .education,
+    .members-grid .member-card .member-info .current {
+        font-size: 12px;
+        color: #666;
+        margin: 5px 0;
+    }
+
+    /* Members部分的网格布局调整 */
+    .member-slider {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        width: 90% !important;  /* 设置整体宽度 */
+        margin: 0 auto !important;  /* 整体居中 */
+        justify-content: center !important;  /* 网格内容居中 */
+    }
+
+    /* 调整卡片样式 */
+    .member-slider .member-card {
+        width: 100% !important;  /* 确保卡片占满网格单元格 */
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box;
+    }
+
+    /* 确保滑动容器也是居中的 */
+    .member-slider-container {
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+    }
+
+    /* Research页面的标题样式统一 */
+    .research-page h2,
+    .research-overview h2 {
+        font-size: 20px !important;
+        text-align: center;
+        margin: 20px 0 15px 0;
+        padding: 0;
+        color: #333;
+        font-weight: 600;
+    }
+
+    /* Research页面的移动端样式 */
+    .research-page {
+        padding-top: 100px !important;  /* 调整顶部间距，与其他页面一致 */
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Research overview部分调整 */
+    .research-overview {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    /* 研究领域详情部分的布局调整 */
+    .research-content,
+    .research-content.reverse {
+        display: flex !important;
+        flex-direction: column !important;  /* 强制所有内容竖向排列 */
+    }
+
+    .research-content .research-text {
+        order: 1 !important;  /* 文字始在前 */
+    }
+
+    .research-content .research-image {
+        order: 2 !important;  /* 图片始终在后 */
+    }
+
+    /* People页面中不同类别之间的间距调整 */
+    .people-category {
+        margin-bottom: 40px !important;  /* 增加别之间的距 */
+    }
+
+    .people-category:last-child {
+        margin-bottom: 20px !important;  /* 最后一个类别底部间距可以小一些 */
+    }
+
+    /* 确保标题和内容之间有适当的间距 */
+    .people-category h2 {
+        margin-bottom: 30px !important;  /* 保持原有的标题下方间距 */
+    }
+
+    /* Publications页面卡片样式优化 - 使用更具体的选择器 */
+    .publications-page .pub-item .pub-content,
+    .publications-section .publications-container .publications-grid .publication-card .pub-content {
+        margin-top: 2px !important;  /* 进一步减小图片和内容之间的距离 */
+    }
+
+    /* 确保图片和内容之间没有额外的空间 */
+    .publications-page .pub-item .pub-image,
+    .publications-section .publications-container .publications-grid .publication-card .pub-image {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    /* 确保内容区域没有额外的上边距 */
+    .publications-page .pub-item .pub-content h3,
+    .publications-section .publications-container .publications-grid .publication-card .pub-content h3 {
+        margin-top: 0 !important;
+    }
+
+    /* Gallery页面的筛选按钮也同样调整 */
+    .gallery-filters .filter-btn {
+        font-size: 11px !important;
+        padding: 4px 8px !important;
+        margin: 0 3px !important;
+        border-radius: 12px !important;
+    }
+
+    /* 筛选按钮样式优化 */
+    .pub-filters,
+    .news-filters,
+    .gallery-filters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin: 0 0 20px 0;
+    }
+
+    .pub-filters .filter-btn,
+    .news-filters .filter-btn,
+    .gallery-filters .filter-btn {
+        font-size: 11px !important;
+        padding: 5px 12px !important;  /* 调整内边距使按钮更紧凑 */
+        margin: 0 4px !important;
+        border-radius: 15px !important;  /* 增加圆角 */
+        border: 1px solid #ddd;
+        background: #fff;
+        color: #666;
+        min-width: auto !important;  /* 移除最小宽度限制 */
+        width: auto !important;  /* 让宽度由内容决定 */
+        white-space: nowrap;  /* 防止文字换行 */
+        transition: all 0.3s ease;  /* 添加过渡效果 */
+    }
+
+    /* 激活状态样式 */
+    .pub-filters .filter-btn.active,
+    .news-filters .filter-btn.active,
+    .gallery-filters .filter-btn.active {
+        background: #0056b3 !important;
+        color: #fff !important;
+        border-color: #0056b3 !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* 添加轻微阴影 */
+    }
+}

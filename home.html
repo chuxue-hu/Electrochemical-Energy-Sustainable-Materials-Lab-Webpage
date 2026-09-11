@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comp. Mater. Lab | Westlake University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preload" as="image" href="images/lunbo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?75d7e9299aa5a5c8c786606e03276328"; 
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="https://www.westlake.edu.cn" aria-label="Westlake University Link">
+                    <img src="images/westlake_logo.png" alt="Westlake University">
+                </a>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html" class="active" aria-current="page">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="home-page">
+        <section class="hero">
+            <div class="hero-slider">
+                <div class="hero-slide" style="background-image: url('images/lunbo.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('images/Slideshow1.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('images/Slideshow2.jpg')"></div>
+                <div class="hero-slide" style="background-image: url('images/westlake_image5.jpg')"></div>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1>Computational Approaches to<br>Material Design</h1>
+                <p>Comp. Mater. Lab. @ Westlake University</p>
+            </div>
+            <div class="hero-indicators">
+                <button type="button" class="indicator active" aria-label="Show slide 1" aria-current="true"></button>
+                <button type="button" class="indicator" aria-label="Show slide 2" aria-current="false"></button>
+                <button type="button" class="indicator" aria-label="Show slide 3" aria-current="false"></button>
+                <button type="button" class="indicator" aria-label="Show slide 4" aria-current="false"></button>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Our research group focuses on computational materials science, aiming to understand, discover, design, and modify novel inorganic solid materials through computation. By combining artificial intelligence algorithms with various materials computation methods, we can establish an in-depth fundamental understanding of the core structure-property relationships in materials science from the microscopic atomic scale, and discover and design new materials that meet practical application requirements through high-throughput computation and data mining.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/about.jpg" alt="Lab Photo">
+                </div>
+            </div>
+        </section>
+
+        <section class="research-section">
+            <h2>Research</h2>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>Solid-state Battery Materials</h3>
+                    <p>Understanding and designing novel materials for next-generation batteries through computational approaches and AI-driven discovery.</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-atom"></i>
+                    </div>
+                    <h3>Strategic Solid-state Synthesis</h3>
+                    <p>Exploring reaction pathways and mechanisms in materials synthesis using advanced computational methods.</p>
+                </div>
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>AI for Materials Discovery</h3>
+                    <p>Developing and applying machine learning models for accelerated materials discovery and property prediction.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="people-section">
+            <h2>Our Team</h2>
+            <div class="section-container">
+                <div class="pi-card">
+                    <div class="pi-image">
+                        <img src="images/zhuyizhou.jpg" alt="Prof. Yizhou Zhu" loading="lazy">
+                        <div class="social-links">
+                            <a href="mailto:zhuyizhou@westlake.edu.cn" class="social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://scholar.google.com/citations?user=gW_3VzEAAAAJ&hl=zh-CN&authuser=1&oi=ao" class="social-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-graduation-cap"></i>
+                            </a>
+                            <a href="https://orcid.org/0000-0002-5819-7657" class="social-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-orcid"></i>
+                            </a>
+                            <a href="https://github.com/zhuyizhou" class="social-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pi-info">
+                        <h3>Yizhou Zhu</h3>
+                        <p class="title">Assistant Professor</p>
+                        <p class="affiliation">School of Engineering, Westlake University</p>
+                        <div class="bio">
+                            <p>Yizhou Zhu obtained her B.S. degree in Physics (2011) and M.S. degree in Nuclear Technology (2014) both from Peking University. She earned her Ph.D. degree in Materials Science and Engineering at the University of Maryland, College Park in 2018. She worked as a postdoctoral research associate at Northwestern University from 2018 to 2021. Zhu joined the Westlake University as a tenure-track Assistant Professor since September 2021.</p>
+                            <p>Her research works on solid electrolytes have been published in renowned journals such as Nature, Sci. Adv., Adv. Mater., Adv. Energy Mater., Angew. Chem. Int. Ed., Joule, J. Mater. Chem. A, etc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="members" class="members-section">
+            <h2>Members</h2>
+            <div class="section-container">
+                <div class="member-slider-container">
+                    <button type="button" class="slider-btn prev" aria-label="Previous members">←</button>
+                    <div class="member-slider">
+
+                        <div class="member-card">
+                            <div class="member-photo">
+                                <img src="images/zhangxizhe.jpg" alt="Xizhe Zhang" loading="lazy">
+                            </div>
+                            <div class="member-info">
+                                <h3>Xizhe Zhang</h3>
+                                <p class="period">Ph.D. Student</p>
+                                <p class="current">M.S. in Applied Mechanics, Zhejiang University (2020-2023)</p>
+                                <div class="member-social">
+                                    <a href="mailto:zhangxizhe@westlake.edu.cn" class="social-link">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                    <a href="https://github.com/939207113" class="social-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-card">
+                            <div class="member-photo">
+                                <img src="images/yanzihan.jpg" alt="Zihan Yan" loading="lazy">
+                            </div>
+                            <div class="member-info">
+                                <h3>Zihan Yan</h3>
+                                <p class="period">Ph.D. Student</p>
+                                <p class="education">B.S. in Microelectronics Science and Engineering, Yangzhou University (2019-2023)</p>
+                                <div class="member-social">
+                                    <a href="mailto:yanzihan@westlake.edu.cn" class="social-link">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                    <a href="https://scholar.google.com/citations?user=NL8zhZYAAAAJ&hl=zh-CN" class="social-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </a>
+                                    <a href="https://orcid.org/0000-0002-8911-6549" class="social-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-orcid"></i>
+                                    </a>
+                                    <a href="https://github.com/zhyan0603" class="social-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <!-- <a href="https://www.researchgate.net/profile/Zihan-Yan-7?ev=hdr_xprf" class="social-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-researchgate"></i>
+                                    </a> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-card">
+                            <div class="member-photo">
+                                <img src="images/situboyi.png" alt="Boyi Situ" loading="lazy">
+                            </div>
+                            <div class="member-info">
+                                <h3>Boyi Situ</h3>
+                                <p class="period">Ph.D. Student</p>
+                                <p class="education">B.S. in Microelectronics Science and Engineering, Yangzhou University (2020-2024)</p>
+                                <div class="member-social">
+                                    <a href="mailto:situboyi@westlake.edu.cn" class="social-link">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                    <a href="https://scholar.google.com/citations?user=gdWqYSoAAAAJ&hl=zh-CN" class="social-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </a>
+                                    <a href="https://orcid.org/0000-0002-2275-7165" class="social-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-orcid"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-card">
+                            <div class="member-photo">
+                                <img src="images/kongyiyi.jpg" alt="Yiyi Kong" loading="lazy">
+                            </div>
+                            <div class="member-info">
+                                <h3>Yiyi Kong</h3>
+                                <p class="period">Ph.D. Student</p>
+                                <p class="education">B.S. in Material Science and Engineering, Huazhong University of Science and Technology (2022-2026)</p>
+                                <div class="member-social">
+                                    <a href="mailto:kongyiyi@westlake.edu.cn" class="social-link">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="member-card">
+                            <div class="member-photo">
+                                <img src="images/liuzhengqi.jpg" alt="Zhengqi Liu" loading="lazy">
+                            </div>
+                            <div class="member-info">
+                                <h3>Zhengqi Liu</h3>
+                                <p class="period">Ph.D. Student</p>
+                                <p class="education">B.S. in Chemical Engineering and Technology, Harbin Institute of Technology (2020-2024)</p>
+                                <div class="member-social">
+                                    <a href="mailto:liuzhengqi@westlake.edu.cn" class="social-link">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                    <a href="https://scholar.google.com/citations?user=WJZ7vb4AAAAJ" class="social-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </a>
+                                    <a href="https://orcid.org/0009-0005-2181-2248" class="social-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-orcid"></i>
+                                    </a>
+                                    <a href="https://github.com/Qi-726" class="social-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fab fa-github"></i>
+                                    </a>                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="member-card">
+                            <div class="member-photo">
+                                <img src="images/wangxinlin.jpg" alt="Xinlin Wang" loading="lazy">
+                            </div>
+                            <div class="member-info">
+                                <h3>Xinlin Wang</h3>
+                                <p class="period">Undergraduate Student</p>
+                                <p class="education">Undergraduate Student, Westlake University (2023-Present)</p>
+                                <div class="member-social">
+                                    <a href="mailto:wangxinlin@westlake.edu.cn" class="social-link">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="slider-btn next" aria-label="Next members">→</button>
+                </div>
+                <div class="view-all-container">
+                    <a href="people.html" class="view-all-btn">View All Members</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="publications-section">
+            <h2>Publications</h2>
+            <div class="publications-container">
+                <button type="button" class="pub-slider-btn prev" aria-label="Previous publications">←</button>
+                <div class="publications-grid" id="home-publications-grid">
+                    <!-- Publications will be loaded dynamically -->
+                </div>
+                <button type="button" class="pub-slider-btn next" aria-label="Next publications">→</button>
+            </div>
+            <div class="view-all-container">
+                <a href="publications.html" class="view-all-btn">View All Publications</a>
+            </div>
+        </section>
+
+        <section id="news" class="news-section">
+            <h2>News</h2>
+            <div class="news-container">
+                <button type="button" class="news-slider-btn prev" aria-label="Previous news">←</button>
+                <div class="news-grid" id="home-news-grid">
+                    <!-- News will be loaded dynamically -->
+                </div>
+                <button type="button" class="news-slider-btn next" aria-label="Next news">→</button>
+            </div>
+            <div class="view-all-container">
+                <a href="news.html" class="view-all-btn">View All News</a>
+            </div>
+        </section>
+    </main>
+
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-item">
+                <i class="fas fa-atom"></i>
+                <div class="stat-info">
+                    <span class="stat-number" data-target="12">0</span>
+                    <p>Materials Studied</p>
+                </div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <div class="stat-info">
+                    <span class="stat-number" data-target="6">0</span>
+                    <p>Lab Members</p>
+                </div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-book"></i>
+                <div class="stat-info">
+                    <span class="stat-number" data-target-publications="true" data-target="0">0</span>
+                    <p>Publications</p>
+                </div>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-laptop-code"></i>
+                <div class="stat-info">
+                    <span class="stat-number" data-target="5">0</span>
+                    <p>Software Tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer>
+        <div class="footer-logo" style="display: flex; justify-content: center; align-items: center; padding: 20px 0;">
+            <img src="images/westlake_bottom.png" alt="Westlake University" style="width: 150px; height: auto;">
+        </div>
+    </footer> -->
+
+    <footer>
+        <div class="contact-info">
+            <div class="contact-copy">
+                <h3>Contact Us</h3>
+                <p>Address: Yungu Campus, Westlake University, 600 Dunyu Road, Xihu District, Hangzhou</p>
+                <p>Postal Code: 310030</p>
+                <p>Email: zhuyizhou@westlake.edu.cn</p>
+            </div>
+            <div class="wechat-card">
+                <img src="images/wechataccount.jpg" alt="Scan to follow the Computational Materials Lab WeChat account" loading="lazy" decoding="async">
+                <p>Follow us on WeChat</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="nav.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Load publications for home page
+        document.addEventListener('DOMContentLoaded', function() {
+            loadHomePublications();
+            loadHomeNews();
+        });
+
+        function loadHomePublications() {
+            fetch('publications.json')
+                .then(response => response.json())
+                .then(data => {
+                    const publicationsGrid = document.getElementById('home-publications-grid');
+                    if (!publicationsGrid) return;
+
+                    // Sort by date (newest first) and take first 10
+                    const sortedPublications = data.publications
+                        .sort((a, b) => new Date(b.date) - new Date(a.date))
+                        .slice(0, 10);
+
+                    // Generate HTML
+                    const html = sortedPublications.map(pub => `
+                        <div class="publication-card">
+                            <div class="pub-image">
+                                <img src="${pub.image}" alt="${pub.journal}" loading="lazy" decoding="async">
+                            </div>
+                            <div class="pub-content">
+                                <h4>${pub.title}</h4>
+                                <p class="journal">${pub.journal}</p>
+                                <a href="${pub.doi}" class="read-more">Read More ></a>
+                            </div>
+                        </div>
+                    `).join('');
+
+                    publicationsGrid.innerHTML = html;
+
+                    // Update publications count in stats section
+                    const pubCountEl = document.querySelector('.stat-number[data-target-publications]');
+                    if (pubCountEl) {
+                        const count = data.publications.length;
+                        pubCountEl.setAttribute('data-target', count);
+                        // Animate the number
+                        animateValue(pubCountEl, 0, count, 2000);
+                    }
+                })
+                .catch(error => console.error('Error loading publications:', error));
+        }
+
+        function loadHomeNews() {
+            fetch('news.json')
+                .then(response => response.json())
+                .then(data => {
+                    const newsGrid = document.getElementById('home-news-grid');
+                    if (!newsGrid) return;
+
+                    // Sort by date (newest first) and take first 9
+                    const sortedNews = data.news
+                        .sort((a, b) => new Date(b.date) - new Date(a.date))
+                        .slice(0, 9);
+
+                    // Generate HTML
+                    const html = sortedNews.map(item => {
+                        const dateObj = new Date(item.date);
+                        const formattedDate = dateObj.toLocaleDateString('en-US', { 
+                            year: 'numeric', 
+                            month: 'short', 
+                            day: '2-digit' 
+                        });
+                        return `
+                        <div class="news-card">
+                            <h3>${item.title}</h3>
+                            <p class="date">${formattedDate}</p>
+                            <p class="news-content">${item.summary}</p>
+                            <a href="${item.link}" class="read-more">Read More ></a>
+                        </div>
+                    `}).join('');
+
+                    newsGrid.innerHTML = html;
+                })
+                .catch(error => console.error('Error loading news:', error));
+        }
+    </script>
+</body>
+</html>
