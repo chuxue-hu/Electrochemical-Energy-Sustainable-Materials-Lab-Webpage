@@ -158,6 +158,13 @@
         margin-bottom: 15px;
     }
 
+    .group-logo-mark {
+        width: 96px;
+        height: 96px;
+        margin-bottom: 1rem;
+        border-radius: 20px;
+    }
+
     .about-image {
         width: 100%;
         padding: 0;
