@@ -437,7 +437,7 @@ footer {
 }
 
 .opening-card ul,
-.pi-info .bio ul {
+.profile-detail-card ul {
     margin: 0.9rem 0 1.25rem;
     padding-left: 1.3rem;
     color: #536273;
@@ -445,7 +445,7 @@ footer {
 }
 
 .opening-card li,
-.pi-info .bio li {
+.profile-detail-card li {
     margin-bottom: 0.55rem;
 }
 
@@ -455,15 +455,91 @@ footer {
     font-weight: 600;
 }
 
-.pi-info .bio h4 {
-    margin: 1.7rem 0 0.6rem;
+.pi-profile-details {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    padding-top: 0.5rem;
+}
+
+.profile-detail-card {
+    padding: 1.4rem 1.5rem;
+    border: 1px solid rgba(18, 43, 85, 0.09);
+    border-radius: 12px;
+    background: #f7f9fc;
+}
+
+.profile-detail-card h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    margin: 0 0 0.75rem;
     color: var(--primary-color);
     font-size: 1.05rem;
+}
+
+.profile-detail-card h4 i {
+    color: var(--secondary-color);
+}
+
+.profile-detail-card ul {
+    margin-bottom: 0;
 }
 
 .credential-note {
     color: #697789;
     font-style: italic;
+}
+
+.pi-highlights {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin: 1.4rem 0;
+}
+
+.pi-highlights > div {
+    min-width: 0;
+    padding: 0.9rem 0.7rem;
+    border-radius: 10px;
+    background: #f2f7fc;
+    text-align: center;
+}
+
+.pi-highlights strong,
+.pi-highlights span {
+    display: block;
+}
+
+.pi-highlights strong {
+    color: var(--secondary-color);
+    font-size: 1.15rem;
+}
+
+.pi-highlights span {
+    margin-top: 0.25rem;
+    color: #5e6b79;
+    font-size: 0.72rem;
+    line-height: 1.3;
+}
+
+.profile-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    color: var(--secondary-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.profile-link i {
+    font-size: 0.8rem;
+    transition: transform 0.2s ease;
+}
+
+.profile-link:hover i {
+    transform: translateX(4px);
 }
 
 .apply-panel {
