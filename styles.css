@@ -2494,12 +2494,28 @@ h2::before, h2::after {
 
 .research-overview .highlights-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
     gap: 2rem;
     padding: 0;
     margin: 0 auto;
     max-width: var(--content-max-width);
     width: 100%;
+}
+
+.research-lead {
+    max-width: 850px;
+    margin: -1.5rem auto 1rem;
+    color: #536273;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.research-interest-heading {
+    margin: -1.5rem auto 1rem;
+    color: var(--primary-color);
+    font-size: 1.55rem;
+    text-align: center;
 }
 
 .research-details {
@@ -2645,6 +2661,10 @@ h2::before, h2::after {
     width: 100%;
 }
 
+.research-section .highlights-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .highlight-card {
     gap: 3rem;
     background: white;
@@ -2685,6 +2705,26 @@ h2::before, h2::after {
     color: #666;
     font-size: 0.95rem;
     line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+    .research-section .highlights-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .research-lead {
+        width: 90%;
+        margin: -1rem auto 0.5rem;
+        font-size: 0.95rem;
+        line-height: 1.65;
+    }
+
+    .research-interest-heading {
+        margin: -0.5rem auto 0.5rem;
+        font-size: 1.25rem;
+    }
 }
 
 @media (max-width: 1024px) {
