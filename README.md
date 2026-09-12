@@ -3,21 +3,22 @@
 <div>
 
 
-# Computational Materials Lab @ Westlake University
+# Electrochemical Energy & Sustainable Materials Lab @ University of Macau
 
-Our research group focuses on computational materials science, aiming to understand, discover, design, and modify novel inorganic solid materials through computation. By combining artificial intelligence algorithms with various materials computation methods, we can establish an in-depth fundamental understanding of the core structure-property relationships in materials science from the microscopic atomic scale, and discover and design new materials that meet practical application requirements through high-throughput computation and data mining.
+Our group develops advanced materials, interfaces, and electrolyte chemistries for sustainable energy storage and beyond, bridging fundamental mechanistic understanding with application-driven materials design and engineering.
 
 ## Research Areas
 
-- Solid-state Battery Materials
-- Strategic Solid-state Synthesis
-- AI for Materials Discovery
+- Aqueous Zinc Batteries
+- Redox Flow Batteries
+- Application-Oriented Lithium-Ion Battery Materials
+- Sustainability-Driven Interdisciplinary Research
 
 ## Contact
 
-- Email: zhuyizhou@westlake.edu.cn
-- Address: Yungu Campus, Westlake University, 600 Dunyu Road, Xihu District, Hangzhou
+- Email: liqing@um.edu.mo
+- Affiliation: Institute of Applied Physics and Materials Engineering, University of Macau
 
 ## Website
 
-Visit our website: [https://zhuyizhou.github.io](https://zhuyizhou.github.io) 
+Visit our website: [https://chuxue-hu.github.io/Electrochemical-Energy-Sustainable-Materials-Lab-Webpage/](https://chuxue-hu.github.io/Electrochemical-Energy-Sustainable-Materials-Lab-Webpage/)
