@@ -392,6 +392,13 @@ footer {
     gap: 1.5rem;
 }
 
+.openings-details {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .opening-card {
     padding: 2rem;
     border: 1px solid rgba(18, 43, 85, 0.1);
@@ -427,6 +434,36 @@ footer {
 .opening-card p:last-child,
 .apply-panel p:last-child {
     margin-bottom: 0;
+}
+
+.opening-card ul,
+.pi-info .bio ul {
+    margin: 0.9rem 0 1.25rem;
+    padding-left: 1.3rem;
+    color: #536273;
+    line-height: 1.7;
+}
+
+.opening-card li,
+.pi-info .bio li {
+    margin-bottom: 0.55rem;
+}
+
+.opening-card a,
+.apply-panel a {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.pi-info .bio h4 {
+    margin: 1.7rem 0 0.6rem;
+    color: var(--primary-color);
+    font-size: 1.05rem;
+}
+
+.credential-note {
+    color: #697789;
+    font-style: italic;
 }
 
 .apply-panel {
