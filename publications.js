@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function loadPublications() {
-    fetch('publications.json')
+    fetch('publications.json?v=20260914')
         .then(response => response.json())
         .then(data => {
             const publicationsList = document.getElementById('publications-list');

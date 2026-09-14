@@ -379,7 +379,7 @@
         });
 
         function loadHomePublications() {
-            fetch('publications.json')
+            fetch('publications.json?v=20260914')
                 .then(response => response.json())
                 .then(data => {
                     const publicationsGrid = document.getElementById('home-publications-grid');
