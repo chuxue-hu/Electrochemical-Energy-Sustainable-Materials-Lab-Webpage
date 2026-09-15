@@ -156,7 +156,11 @@ body {
 
 @media (min-width: 1350px) {
     .hero-content h1 {
-        white-space: nowrap;
+        /* Keep long hero titles inside the centered content column. */
+        white-space: normal;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
