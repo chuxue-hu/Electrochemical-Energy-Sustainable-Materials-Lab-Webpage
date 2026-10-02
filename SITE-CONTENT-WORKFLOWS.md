@@ -1,6 +1,6 @@
 ---
 name: site-content-workflows
-description: Add or update news, publications, team members, or gallery items on the Westlake Computational Materials Lab static site. Use when the user mentions adding a paper, publication, news item, new member, alumni update, or gallery photo. Covers the multi-file edits each content type requires (JSON + per-item HTML + hardcoded filter buttons), chemical formula HTML formatting conventions, and how home.html must stay in sync with people.html.
+description: Add or update news, publications, team members, or gallery items on the Electrochemical Energy & Sustainable Materials Lab static site. Use when the user mentions adding a paper, publication, news item, new member, alumni update, or gallery photo. Covers the multi-file edits each content type requires (JSON + per-item HTML + hardcoded filter buttons), chemical formula HTML formatting conventions, and how home.html must stay in sync with team.html.
 ---
 
 # Site content workflows
@@ -68,30 +68,30 @@ Most publications are also announced as a news entry. When doing both:
 
 ## People — edit two HTML files (cards)
 
-Member data is hardcoded in `<div class="member-card">` blocks in both `people.html` and `home.html`; these two copies must stay in sync. The former unused `people.js` file has been removed and is not a data source.
+Member data is hardcoded in `<div class="member-card">` blocks in both `team.html` and `home.html`; these two copies must stay in sync. The former unused `people.js` file has been removed and is not a data source.
 
 ### Where to edit
-- `people.html` — the full people page. Sections: Principal Investigator (`.pi-card`), Ph.D. Students, Undergraduate Students, Alumni. Each member is a `<div class="member-card">`.
+- `team.html` — the full team page. Sections: Principal Investigator (`.pi-card`), Postdoctoral Researchers, Ph.D. Students, Master’s Students, Research Assistants. Each member is a `<div class="member-card">`.
 - `home.html` — the homepage "Members" slider (around line 141) shows a subset of members. It is a separate copy of the cards.
 - There is no active people data JS file; update the two HTML copies directly.
 - Member photos live in `images/` (e.g. `images/yanzihan.jpg`).
 
 ### Adding a new member
 1. Add the photo to `images/`.
-2. Add a `<div class="member-card">` block to `people.html` in the right section. Copy an existing card as a template; the structure is `<div class="member-photo"><img></div>` + `<div class="member-info">` with `<h3>`, `<p class="period">`, `<p class="education">` / `<p class="current">`, and `member-social` links.
-3. Add a corresponding `<div class="member-card">` to the `home.html` member slider (inside `<div class="member-slider">`). The home card is a simplified version: `<p class="period">Ph.D. Student</p>` instead of the period range, and usually one `<p class="current">` or `<p class="education">` line. Include `loading="lazy"` on the `<img>` (home uses it; people.html doesn't).
+2. Add a `<div class="member-card">` block to `team.html` in the right section. Copy an existing card as a template; the structure is `<div class="member-photo"><img></div>` + `<div class="member-info">` with `<h3>`, `<p class="period">`, `<p class="education">` / `<p class="current">`, and `member-social` links.
+3. Add a corresponding `<div class="member-card">` to the `home.html` member slider (inside `<div class="member-slider">`). The home card is a simplified version: `<p class="period">Ph.D. Student</p>` instead of the period range, and usually one `<p class="current">` or `<p class="education">` line. Include `loading="lazy"` on the `<img>` (home uses it; team.html doesn't).
 4. If a richer bio is needed in the future, first introduce and wire up an explicit data-rendering path; the current pages have no people data JS source.
 
 ### Member leaving / graduating (move to Alumni)
 When a member leaves (graduation, new position):
-1. In `people.html`, **move** their `<div class="member-card">` from their current section (Ph.D. Students / etc.) into the `Alumni` `<div class="members-grid">`.
+1. In `team.html`, **move** their `<div class="member-card">` from their current section (Ph.D. Students / etc.) into the `Alumni` `<div class="members-grid">`.
 2. Update their card: change `<p class="period">YYYY-Present</p>` to `<p class="period">YYYY-YYYY</p>` (graduation year), and add a `<p class="current">New Position, Institution</p>` line describing where they went.
 3. In `home.html`, **remove** their card from the member slider entirely (alumni are not shown on the home page). Delete the whole `<div class="member-card">...</div>` block.
 4. Update the `Lab Members` stat number in `home.html` (around line 341): `<span class="stat-number" data-target="N">` — decrement to match the new count of active (non-alumni) members shown on the homepage. This number is hardcoded, not auto-computed.
 
 ### Temporarily hiding a member (comment out, don't delete)
 If a member leaves but you want to preserve their card for later:
-- Wrap the entire `<div class="member-card">...</div>` block in `<!-- ... -->` in **both** `people.html` and `home.html`.
+- Wrap the entire `<div class="member-card">...</div>` block in `<!-- ... -->` in **both** `team.html` and `home.html`.
 - Add a comment marker inside: `<!-- <Name> left the group — commented out, do not delete`.
 - Comments are invisible to the browser, so the card won't render. This is preferred over deletion when the departure might be reversed or the history matters.
 - If the member was counted in the home.html `Lab Members` stat, decrement that number too.
@@ -108,6 +108,6 @@ Gallery items are hardcoded `<div class="timeline-item" data-date="YYYY-MM-DD" d
 3. No filter buttons to update — categories are fixed (`group`, `events`, `research`).
 4. For multi-photo items, use a `<div class="gallery-image-stack">` with multiple `<img>` tags; `gallery.js` wires up the expanded lightbox view automatically.
 
-## home.html ↔ people.html sync
+## home.html ↔ team.html sync
 
-Because there's no templating, `home.html`'s member slider is a hand-maintained subset of `people.html`. **Any people change must be reflected in both files** (add, move-to-alumni, or comment-out). The home slider does NOT include alumni. The home `Lab Members` stat is a hardcoded count of the cards currently in the slider — update it manually when the active roster changes.
+Because there's no templating, `home.html`'s member slider is a hand-maintained subset of `team.html`. **Any team change must be reflected in both files** (add, move-to-alumni, or comment-out). The home slider does NOT include alumni. The home `Lab Members` stat is a hardcoded count of the cards currently in the slider — update it manually when the active roster changes.

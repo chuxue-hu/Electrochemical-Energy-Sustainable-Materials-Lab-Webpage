@@ -18,8 +18,8 @@ Static website for the Computational Materials Lab @ Westlake University. No bui
 - **`index.html` is a splash/intro**, not the homepage. It auto-redirects to `home.html` on scroll-down or swipe-up (see inline script near line 434). `home.html` is the real homepage.
 - All navbar "Home" links point to `home.html`, **not** `index.html`. Do not "fix" them to `index.html`.
 - `sitemap.xml` also lists `home.html` as a separate page — this is intentional.
-- **No templating/includes.** The `<header><nav>` block is copy-pasted verbatim into every top-level page (`home.html`, `research.html`, `people.html`, `publications.html`, `gallery.html`, `news.html`) plus separately into each `news/*.html`. Editing nav/logo/analytics means editing all of them. `index.html` has its own different inline nav.
-- `home.html` keeps a **separate hand-maintained copy** of the member cards and the publications/news lists. The lists render dynamically from JSON, but the member slider is HTML that must be synced with `people.html` manually.
+- **No templating/includes.** The `<header><nav>` block is copy-pasted verbatim into every top-level page (`home.html`, `research.html`, `team.html`, `publications.html`, `gallery.html`, `news.html`) plus separately into each `news/*.html`. Editing nav/logo/analytics means editing all of them. `index.html` has its own different inline nav.
+- `home.html` keeps a **separate hand-maintained copy** of the member cards and the publications/news lists. The lists render dynamically from JSON, but the member slider is HTML that must be synced with `team.html` manually.
 
 ## Stylesheets
 
@@ -33,7 +33,7 @@ Each content type (news, publications, people, gallery) has a different update p
 
 - **News** = `news.json` entry + matching `news/<id>.html` file + year filter button in `news.html` (if new year).
 - **Publications** = `publications.json` entry + TOC image in `images/` + year filter button in `publications.html` (if new year). No per-item HTML.
-- **People** = edit the hardcoded `<div class="member-card">` blocks in **both** `people.html` and `home.html` (these two must stay in sync). The former unused `people.js` file has been removed. Photos in `images/`.
+- **Team** = edit the hardcoded `<div class="member-card">` blocks in **both** `team.html` and `home.html` (these two must stay in sync). The former unused `people.js` file has been removed. Photos in `images/`.
 - **Gallery** = hardcoded `<div class="timeline-item">` blocks in `gallery.html`. Photos in `gallery/` (separate from `images/`). Categories: `group`, `events`, `research`.
 
 ## External / third-party snippets
