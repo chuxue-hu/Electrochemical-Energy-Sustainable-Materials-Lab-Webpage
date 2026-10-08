@@ -1,116 +1,132 @@
 {
   "news": [
     {
-      "id": "2026-08-08-AEM-publication",
-      "title": "New Publication in Adv. Energy Mater.",
-      "date": "2026-08-08",
+      "id": "2026-12-31-zn-iodine-flow-publication",
+      "title": "New Publication in Angewandte Chemie International Edition",
+      "date": "2026-12-31",
       "year": 2026,
-      "summary": "We are pleased to announce that our latest research paper has been accepted for publication in <strong><em>Adv. Energy Mater.</em></strong>. In this work, we develop a structural-feature-constrained generative model for the computational discovery of novel sulfide lithium superionic conductors.",
-      "link": "news/2026-08-08-AEM-publication.html"
+      "summary": "We are pleased to announce our publication, <strong>Solvation Reconfiguration Enables Two-Electron Iodine Chemistry Through Chloride Activation for High-Energy Zn-Iodine Flow Batteries</strong>, in <strong><em>Angewandte Chemie International Edition</em></strong>. The work develops solvation and chloride-activation strategies for high-energy zinc-iodine flow batteries.",
+      "link": "news/2026-12-31-zn-iodine-flow-publication.html"
     },
     {
-      "id": "2026-07-15-JMCA-publication",
-      "title": "New Publication in J. Mater. Chem. A",
-      "date": "2026-07-15",
+      "id": "2026-12-30-alkaline-flow-membrane-publication",
+      "title": "New Publication in Advanced Science",
+      "date": "2026-12-30",
       "year": 2026,
-      "summary": "We are pleased to announce that our latest research paper has been accepted for publication in <strong><em>J. Mater. Chem. A</em></strong>. In this work, we develop a multi-property evaluation framework to systematically assess lithium- and sodium-based binary compounds as artificial coatings for all-solid-state batteries.",
-      "link": "news/2026-07-15-JMCA-publication.html"
+      "summary": "We are pleased to announce our publication, <strong>Fixed-Linkage Enabled Ultra-Stable Ion Transport Channels in Membranes for Long-Life Alkaline Flow Batteries</strong>, in <strong><em>Advanced Science</em></strong>. The study introduces stable ion-transport channels for durable alkaline flow batteries.",
+      "link": "news/2026-12-30-alkaline-flow-membrane-publication.html"
     },
     {
-      "id": "2026-06-16-ChemSci-publication",
-      "title": "New Publication in Chem. Sci.",
-      "date": "2026-06-16",
+      "id": "2026-12-29-trace-electrolyte-additives-publication",
+      "title": "New Publication in Advanced Energy Materials",
+      "date": "2026-12-29",
       "year": 2026,
-      "summary": "We are pleased to announce that our latest research paper has been accepted for publication in <strong><em>Chem. Sci.</em></strong>. In this work, we propose a synergistic multi-anion and cation co-doping strategy to construct a highly amorphous halide electrolyte, enabling fast ion transport and stable interfaces.",
-      "link": "news/2026-06-16-ChemSci-publication.html"
+      "summary": "We are pleased to announce our publication, <strong>Engineering Trace-Amount Electrolyte Additives for Aqueous Zinc Batteries</strong>, in <strong><em>Advanced Energy Materials</em></strong>. This work engineers trace electrolyte additives to improve aqueous zinc-battery operation.",
+      "link": "news/2026-12-29-trace-electrolyte-additives-publication.html"
     },
     {
-      "id": "2026-04-08-acsnano-publication",
+      "id": "2026-12-28-aqueous-battery-electrolyte-publication",
+      "title": "New Publication in Science Advances",
+      "date": "2026-12-28",
+      "year": 2026,
+      "summary": "We are pleased to announce our publication, <strong>Electrolyte Design for Aqueous Batteries</strong>, in <strong><em>Science Advances</em></strong>. The work connects electrolyte chemistry and design principles with aqueous-battery performance.",
+      "link": "news/2026-12-28-aqueous-battery-electrolyte-publication.html"
+    },
+    {
+      "id": "2025-12-31-cellulose-energy-storage-publication",
+      "title": "New Publication in Energy Materials and Devices",
+      "date": "2025-12-31",
+      "year": 2025,
+      "summary": "We are pleased to announce our publication, <strong>The Transformative Potential of Cellulose in Energy Storage Systems</strong>, in <strong><em>Energy Materials and Devices</em></strong>. The article examines cellulose-based opportunities across emerging energy-storage systems.",
+      "link": "news/2025-12-31-cellulose-energy-storage-publication.html"
+    },
+    {
+      "id": "2024-12-31-zinc-powder-anodes-publication",
+      "title": "New Publication in Nano Letters",
+      "date": "2024-12-31",
+      "year": 2024,
+      "summary": "We are pleased to announce our publication, <strong>Zinc Powder Anodes for Rechargeable Aqueous Zinc-Based Batteries</strong>, in <strong><em>Nano Letters</em></strong>. The work evaluates zinc-powder anodes as an architecture for rechargeable aqueous zinc batteries.",
+      "link": "news/2024-12-31-zinc-powder-anodes-publication.html"
+    },
+    {
+      "id": "2023-12-31-znse-textured-anode-publication",
       "title": "New Publication in ACS Nano",
-      "date": "2026-04-08",
-      "year": 2026,
-      "summary": "We are pleased to announce that our latest research paper has been accepted for publication in ACS Nano.",
-      "link": "news/2026-04-08-acsnano-publication.html"
-    },
-    {
-      "id": "2026-03-18-gpumdkit",
-      "title": "The release of GPUMDkit package",
-      "date": "2026-03-18",
-      "year": 2026,
-      "summary": "We are pleased to announce the release of GPUMDkit, a user-friendly toolkit for GPUMD and NEP.",
-      "link": "news/2026-03-18-gpumdkit.html"
-    },
-    {
-      "id": "2025-10-12-npj-publication",
-      "title": "New Publication in npj Comput. Mater.",
-      "date": "2025-10-12",
-      "year": 2025,
-      "summary": "We are pleased to announce that our latest research paper has been accepted for publication in <strong><em>npj Comput. Mater</em></strong>. Here, we propose a feasible principle toward synthesizing complex inorganic solids.",
-      "link": "news/2025-10-12-npj-publication.html"
-    },
-    {
-      "id": "2025-07-25-SciAdv-publication",
-      "title": "New Publication in Sci. Adv.",
-      "date": "2025-07-25",
-      "year": 2025,
-      "summary": "We are pleased to announce that our latest research paper has been accepted for publication in <strong><em>Science Advances</em></strong>. Here, we propose a feasible principle toward synthesizing complex inorganic solids.",
-      "link": "news/2025-07-25-SciAdv-publication.html"
-    },
-    {
-      "id": "2025-07-24-AM-publication",
-      "title": "New Publication in Adv. Mater.",
-      "date": "2025-07-24",
-      "year": 2025,
-      "summary": "We are pleased to announce that our latest research paper has been accepted for publication in <strong><em>Advanced Materials</em></strong>. Here, a rational design strategy is introduced to stabilize HE-LLZO by combining thermodynamic assessments of interfacial reactivity with targeted compositional engineering.",
-      "link": "news/2025-07-24-AM-publication.html"
-    },
-    {
-      "id": "2025-07-18-JMCA-publication",
-      "title": "New Publication in JMCA",
-      "date": "2025-07-18",
-      "year": 2025,
-      "summary": "We are pleased to announce that our latest research paper has been accepted for publication in <strong><em>J. Mater. Chem. A</em></strong>. In this work, we propose an approach that directly identifies the polar structure after polarization switching, using the symmetry operations of the framework structure.",
-      "link": "news/2025-07-18-JMCA-publication.html"
-    },
-    {
-      "id": "2024-11-20-chem-mater-publication",
-      "title": "New Publication in Chem. Mater.",
-      "date": "2024-11-20",
-      "year": 2024,
-      "summary": "We are pleased to announce that our latest research paper has been accepted for publication in <strong><em>Chemistry of Materials</em></strong>. In this work, we found that lithium nonstoichiometry in tetragonal Li<sub>7</sub>La<sub>3</sub>Zr<sub>2</sub>O<sub>12</sub> significantly reduces the activation energy for Li<sup>+</sup> ion diffusion.",
-      "link": "news/2024-11-20-chem-mater-publication.html"
-    },
-    {
-      "id": "2024-09-01-new-member-situ",
-      "title": "New Member Joining",
-      "date": "2024-09-01",
-      "year": 2024,
-      "summary": "We warmly welcome Boyi Situ to our group as a Ph.D. student. Boyi received his B.S. degree from Yangzhou University. His research will focus on the discovery of structurally constrained ion conductors using generative models.",
-      "link": "news/2024-09-01-new-member-situ.html"
-    },
-    {
-      "id": "2024-07-06-acsnano-publication",
-      "title": "New Publication in ACS Nano",
-      "date": "2024-07-06",
-      "year": 2024,
-      "summary": "Our latest research on high-voltage all-solid-state lithium batteries has been published in <strong><em>ACS Nano</em></strong>. This work demonstrates significant advancements in battery technology through the innovative use of high-valent-element-doped halide electrolytes.",
-      "link": "news/2024-07-06-acsnano-publication.html"
-    },
-    {
-      "id": "2024-03-15-acs-publication",
-      "title": "New Publication in ACS Appl. Energy Mater.",
-      "date": "2024-03-15",
-      "year": 2024,
-      "summary": "We are pleased to announce that our latest research paper titled \"Elucidating Anisotropic Ionic Diffusion Mechanism in Li<sub>3</sub>YCl<sub>6</sub> with Molecular Dynamics Simulations\" has been published in <strong><em>ACS Applied Energy Materials</em></strong>....",
-      "link": "news/2024-03-15-acs-publication.html"
-    },
-    {
-      "id": "2023-09-01-new-member-zihan",
-      "title": "New Member Joining",
-      "date": "2023-09-01",
+      "date": "2023-12-31",
       "year": 2023,
-      "summary": "We are delighted to welcome Zihan Yan to our research group as a Ph.D. student. Zihan received his B.S. degree from Yangzhou University and will focus on machine learning potentials and lithium ion transport in solid-state electrolytes.",
-      "link": "news/2023-09-01-new-member-zihan.html"
+      "summary": "We are pleased to announce our publication, <strong>Crystal Orientation Engineering of Perfectly Matched Heterogeneous Textured ZnSe for an Enhanced Interfacial Kinetic Zn Anode</strong>, in <strong><em>ACS Nano</em></strong>. The study uses textured ZnSe to accelerate interfacial kinetics at zinc anodes.",
+      "link": "news/2023-12-31-znse-textured-anode-publication.html"
+    },
+    {
+      "id": "2023-12-30-zn-li-temperature-publication",
+      "title": "New Publication in Science Bulletin",
+      "date": "2023-12-30",
+      "year": 2023,
+      "summary": "We are pleased to announce our publication, <strong>Distinct Chemistry between Zn and Li at Varied Temperature</strong>, in <strong><em>Science Bulletin</em></strong>. The work clarifies temperature-dependent differences in zinc and lithium chemistry.",
+      "link": "news/2023-12-30-zn-li-temperature-publication.html"
+    },
+    {
+      "id": "2022-12-31-thin-separator-zn-anode-publication",
+      "title": "New Publication in Small",
+      "date": "2022-12-31",
+      "year": 2022,
+      "summary": "We are pleased to announce our publication, <strong>Mechanistic Study of Interfacial Modification for Stable Zn Anode Based on a Thin Separator</strong>, in <strong><em>Small</em></strong>. The study uses a thin separator to regulate the zinc interface and stabilize cycling.",
+      "link": "news/2022-12-31-thin-separator-zn-anode-publication.html"
+    },
+    {
+      "id": "2022-12-30-flexible-zn-anode-publication",
+      "title": "New Publication in Angewandte Chemie International Edition",
+      "date": "2022-12-30",
+      "year": 2022,
+      "summary": "We are pleased to announce our publication, <strong>Dendrite Issues for Zinc Anodes in a Flexible Cell Configuration for Zinc-Based Wearable Energy-Storage Devices</strong>, in <strong><em>Angewandte Chemie International Edition</em></strong>. The work examines dendrite behavior in flexible zinc-based energy-storage devices.",
+      "link": "news/2022-12-30-flexible-zn-anode-publication.html"
+    },
+    {
+      "id": "2022-12-29-metal-electrode-morphology-publication",
+      "title": "New Publication in Nature Communications",
+      "date": "2022-12-29",
+      "year": 2022,
+      "summary": "We are pleased to announce our publication, <strong>Tailoring the Metal Electrode Morphology via Electrochemical Protocol Optimization for Long-Lasting Aqueous Zinc Batteries</strong>, in <strong><em>Nature Communications</em></strong>. The study optimizes electrochemical protocols to control metal-electrode morphology and extend battery life.",
+      "link": "news/2022-12-29-metal-electrode-morphology-publication.html"
+    },
+    {
+      "id": "2022-12-28-soft-shorts-zinc-publication",
+      "title": "New Publication in Joule",
+      "date": "2022-12-28",
+      "year": 2022,
+      "summary": "We are pleased to announce our publication, <strong>Soft Shorts Hidden in Zinc Metal Anode Research</strong>, in <strong><em>Joule</em></strong>. The article highlights hidden short-circuit pathways that can affect zinc-metal-anode research.",
+      "link": "news/2022-12-28-soft-shorts-zinc-publication.html"
+    },
+    {
+      "id": "2021-12-31-zn-powder-current-collector-publication",
+      "title": "New Publication in Advanced Energy Materials",
+      "date": "2021-12-31",
+      "year": 2021,
+      "summary": "We are pleased to announce our publication, <strong>Calendar Life of Zn Batteries Based on Zn Anode with Zn Powder/Current Collector Structure</strong>, in <strong><em>Advanced Energy Materials</em></strong>. The work studies a zinc-powder/current-collector architecture for extended battery calendar life.",
+      "link": "news/2021-12-31-zn-powder-current-collector-publication.html"
+    },
+    {
+      "id": "2020-12-31-zn-dendrites-ecomat-publication",
+      "title": "New Publication in EcoMat",
+      "date": "2020-12-31",
+      "year": 2020,
+      "summary": "We are pleased to announce our publication, <strong>Dendrites Issues and Advances in Zn Anode for Aqueous Rechargeable Zn-Based Batteries</strong>, in <strong><em>EcoMat</em></strong>. The review summarizes dendrite mechanisms and mitigation strategies for aqueous zinc anodes.",
+      "link": "news/2020-12-31-zn-dendrites-ecomat-publication.html"
+    },
+    {
+      "id": "2016-12-31-cellulose-nanofibre-publication",
+      "title": "New Publication in Cellulose",
+      "date": "2016-12-31",
+      "year": 2016,
+      "summary": "We are pleased to announce our publication, <strong>Engineering Cellulose Nanofibre Suspensions to Control Filtration Resistance and Sheet Permeability</strong>, in <strong><em>Cellulose</em></strong>. The study engineers cellulose nanofibre suspensions to tune filtration and sheet properties.",
+      "link": "news/2016-12-31-cellulose-nanofibre-publication.html"
+    },
+    {
+      "id": "2016-12-30-cpan-carbon-nanofiber-publication",
+      "title": "New Publication in Journal of Materials Chemistry A",
+      "date": "2016-12-30",
+      "year": 2016,
+      "summary": "We are pleased to announce our publication, <strong>Cyclized-Polyacrylonitrile Modified Carbon Nanofiber Interlayers Enabling Strong Trapping of Polysulfides in Lithium-Sulfur Batteries</strong>, in <strong><em>Journal of Materials Chemistry A</em></strong>. The work develops carbon-nanofibre interlayers for polysulfide trapping in lithium-sulfur batteries.",
+      "link": "news/2016-12-30-cpan-carbon-nanofiber-publication.html"
     }
   ]
 }
