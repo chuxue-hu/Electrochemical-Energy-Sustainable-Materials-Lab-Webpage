@@ -1113,8 +1113,13 @@
     /* News页面的移动端样式优化 */
     .news-page {
         padding-top: 120px !important;
-        width: 95%;
+        width: 100%;
+        max-width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        box-sizing: border-box;
         margin: 0 auto;
+        overflow-x: hidden;
     }
 
     .news-page h1 {
@@ -1127,9 +1132,12 @@
 
     /* News卡片样式重新设计 */
     .news-page .news-item {
-        width: 85% !important;
+        width: 100% !important;
+        max-width: 100%;
+        min-width: 0;
         margin: 0 auto 15px auto !important;
         padding: 15px !important;
+        box-sizing: border-box;
         background: #fff;
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -1138,8 +1146,18 @@
         gap: 4px;  /* 控制各元素之间的间距 */
     }
 
+    .news-page .news-list {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        padding: 0;
+        box-sizing: border-box;
+        grid-template-columns: minmax(0, 1fr);
+    }
+
     /* 标题样式 */
     .news-page .news-item h3 {
+        min-width: 0;
         font-size: 14px !important;
         line-height: 1.4;
         margin: 0 0 6px 0 !important;
@@ -1157,6 +1175,7 @@
 
     /* 内容缩略样式 */
     .news-page .news-content {
+        min-width: 0;
         font-size: 12px !important;
         line-height: 1.5;
         color: #666;
@@ -1166,6 +1185,7 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
+        overflow-wrap: anywhere;
     }
 
     /* Read More链接样式 */
