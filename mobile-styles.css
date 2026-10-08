@@ -1598,6 +1598,9 @@
     /* team.html 中的成员卡片样式 */
     .members-grid .member-card {
         padding: 15px !important;
+        flex: 0 0 auto !important;
+        height: auto !important;
+        min-height: 0 !important;
     }
 
     /* Keep team portraits perfectly circular on small screens. */
