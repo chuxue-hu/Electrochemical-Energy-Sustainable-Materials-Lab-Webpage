@@ -8,7 +8,7 @@
       "year": 2026,
       "date": "2026-12-31",
       "doi": "https://doi.org/10.1002/anie.4798889",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2026-12-31-zn-iodine-flow.jpg",
       "abstract": "Solvation reconfiguration and chloride activation enable two-electron iodine chemistry in Zn–iodine flow batteries, targeting higher energy density and reversibility."
     },
     {
@@ -19,7 +19,7 @@
       "year": 2026,
       "date": "2026-12-31",
       "doi": "https://doi.org/10.1002/advs.202524374",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2026-12-30-alkaline-flow-membrane.png",
       "abstract": "Fixed-linkage membranes create ultra-stable ion-transport channels for long-life alkaline flow batteries."
     },
     {
@@ -30,7 +30,7 @@
       "year": 2026,
       "date": "2026-12-31",
       "doi": "https://doi.org/10.1002/aenm.70899",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2026-12-29-trace-electrolyte-additives.jpg",
       "abstract": "Trace-amount electrolyte additives are engineered to improve the operation of aqueous zinc batteries."
     },
     {
@@ -41,7 +41,7 @@
       "year": 2026,
       "date": "2026-12-31",
       "doi": "https://doi.org/10.1126/sciadv.aeb4498",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2026-12-28-aqueous-battery-electrolyte.jpg",
       "abstract": "Electrolyte design principles are discussed for aqueous batteries, linking chemistry to electrochemical performance."
     },
     {
@@ -52,7 +52,7 @@
       "year": 2025,
       "date": "2025-12-31",
       "doi": "https://doi.org/10.26599/EMD.2025.9370076",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2025-12-31-cellulose-energy-storage.png",
       "abstract": "The transformative potential of cellulose is examined across emerging energy-storage systems."
     },
     {
@@ -63,7 +63,7 @@
       "year": 2024,
       "date": "2024-12-31",
       "doi": "https://doi.org/10.1021/acs.nanolett.4c00101",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2024-12-31-zinc-powder-anodes.png",
       "abstract": "Zinc powder anodes are evaluated as a rechargeable aqueous zinc-battery architecture."
     },
     {
@@ -74,7 +74,7 @@
       "year": 2023,
       "date": "2023-12-31",
       "doi": "https://doi.org/10.1021/acsnano.3c07848",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2023-12-31-znse-textured-anode.png",
       "abstract": "Crystal-orientation engineering of textured ZnSe is used to accelerate interfacial kinetics at zinc anodes."
     },
     {
@@ -85,7 +85,7 @@
       "year": 2023,
       "date": "2023-12-31",
       "doi": "https://doi.org/10.1016/j.scib.2023.04.020",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2023-12-30-zn-li-temperature.png",
       "abstract": "Temperature-dependent chemistry is compared for Zn and Li, clarifying distinct interfacial and reaction behavior."
     },
     {
@@ -96,7 +96,7 @@
       "year": 2022,
       "date": "2022-12-31",
       "doi": "https://doi.org/10.1002/smll.202201045",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2022-12-31-thin-separator-zn-anode.png",
       "abstract": "A thin separator is used to modify the Zn interface and stabilize zinc-anode cycling."
     },
     {
@@ -107,7 +107,7 @@
       "year": 2022,
       "date": "2022-12-31",
       "doi": "https://doi.org/10.1002/anie.202202780",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2022-12-30-flexible-zn-anode.png",
       "abstract": "A flexible cell configuration is analyzed to clarify dendrite issues in zinc anodes for wearable storage."
     },
     {
@@ -118,7 +118,7 @@
       "year": 2022,
       "date": "2022-12-31",
       "doi": "https://doi.org/10.1038/s41467-022-31461-7",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2022-12-29-metal-electrode-morphology.png",
       "abstract": "Electrochemical protocol optimization tailors metal-electrode morphology for long-lasting aqueous zinc batteries."
     },
     {
@@ -129,7 +129,7 @@
       "year": 2022,
       "date": "2022-12-31",
       "doi": "https://doi.org/10.1016/j.joule.2021.12.009",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2022-12-28-soft-shorts-zinc.png",
       "abstract": "The article examines hidden soft shorts that can arise in zinc-metal-anode research."
     },
     {
@@ -140,7 +140,7 @@
       "year": 2021,
       "date": "2021-12-31",
       "doi": "https://doi.org/10.1002/aenm.202003931",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2021-12-31-zn-powder-current-collector.png",
       "abstract": "A Zn powder/current-collector architecture is studied to extend the calendar life of zinc batteries."
     },
     {
@@ -151,7 +151,7 @@
       "year": 2020,
       "date": "2020-12-31",
       "doi": "https://doi.org/10.1002/eom2.12035",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2020-12-31-zn-dendrites-ecomat.png",
       "abstract": "Dendrite mechanisms and mitigation advances are reviewed for aqueous rechargeable zinc anodes."
     },
     {
@@ -162,7 +162,7 @@
       "year": 2016,
       "date": "2016-12-31",
       "doi": "https://doi.org/10.1007/s10570-015-0790-0",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2016-12-31-cellulose-nanofibre.png",
       "abstract": "Cellulose nanofibre suspension engineering is used to tune filtration resistance and sheet permeability."
     },
     {
@@ -173,7 +173,7 @@
       "year": 2016,
       "date": "2016-12-30",
       "doi": "https://doi.org/10.1039/C6TA03918A",
-      "image": "images/publication-placeholder.svg",
+      "image": "images/2016-12-30-cpan-carbon-nanofiber.png",
       "abstract": "Cyclized-polyacrylonitrile-modified carbon-nanofibre interlayers trap polysulfides in lithium–sulfur batteries."
     }
   ]
