@@ -1600,6 +1600,26 @@
         padding: 15px !important;
     }
 
+    /* Keep team portraits perfectly circular on small screens. */
+    .members-grid .member-photo {
+        width: 90px !important;
+        height: 90px !important;
+        flex: 0 0 90px;
+        aspect-ratio: 1 / 1;
+        border-radius: 50% !important;
+        overflow: hidden;
+        border: 3px solid #e5eaf1;
+        box-sizing: border-box;
+    }
+
+    .members-grid .member-photo img {
+        display: block;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+        border-radius: 50% !important;
+    }
+
     .members-grid .member-card .member-info .education,
     .members-grid .member-card .member-info .current,
     .members-grid .member-card .member-social {
