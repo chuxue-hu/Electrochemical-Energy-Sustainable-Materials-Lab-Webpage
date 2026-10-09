@@ -926,7 +926,8 @@ h2::before, h2::after {
 
 /* Language switcher added to the shared navigation by language.js. */
 .language-switch-item {
-    margin-left: 1.25rem !important;
+    margin-left: 1.75rem !important;
+    transform: translateX(8px);
 }
 
 .language-toggle {
@@ -952,6 +953,11 @@ h2::before, h2::after {
 @media (max-width: 768px) {
     .mobile-menu-btn {
         display: block;
+    }
+
+    .language-switch-item {
+        margin-left: 0 !important;
+        transform: none;
     }
 }
 

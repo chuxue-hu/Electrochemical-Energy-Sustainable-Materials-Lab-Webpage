@@ -128,7 +128,87 @@
         'New Publication in EcoMat': 'EcoMat 发表新论文',
         'Congratulations on Angewandte Chemie Acceptance': '祝贺论文被 Angewandte Chemie 接收',
         'Welcome to the Lab, Zhaoyang Zhang!': '欢迎 Zhaoyang Zhang 加入课题组！',
-        'Welcome to the Lab, Bowen Liang!': '欢迎 Bowen Liang 加入课题组！'
+        'Welcome to the Lab, Bowen Liang!': '欢迎 Bowen Liang 加入课题组！',
+        'Institute of Applied Physics and Materials Engineering, University of Macau': '澳门大学应用物理及材料工程研究院',
+        'Dr. Qing Li is an Assistant Professor and PhD Supervisor at the Institute of Applied Physics and Materials Engineering (IAPME), University of Macau. Her research focuses on advanced electrochemical energy storage, particularly aqueous zinc batteries, electrolyte engineering, interfacial chemistry, and battery materials.': '李清博士是澳门大学应用物理及材料工程研究院（IAPME）助理教授、博士生导师，主要从事先进电化学储能研究，重点关注水系锌电池、电解液工程、界面化学和电池材料。',
+        'She has over two years of industrial R&D experience in battery technologies, connecting fundamental research with practical applications. She has published over 80 peer-reviewed papers, including in Nature Communications, Science Advances, Joule, Angewandte Chemie International Edition, and Advanced Materials, with more than 10,000 citations and an h-index of 47.': '她拥有两年以上电池技术产业研发经验，致力于连接基础研究与实际应用。她已发表 80 余篇同行评议论文，发表于 Nature Communications、Science Advances、Joule、Angewandte Chemie International Edition 和 Advanced Materials 等期刊，论文被引用超过 10,000 次，h-index 为 47。',
+        'Her projects have received support from the National Natural Science Foundation of China, the University of Macau, and industrial partners. She has been recognized as a Stanford World鈥檚 Top 2% Scientist.': '她主持或参与的项目获得国家自然科学基金、澳门大学及产业合作伙伴支持，并入选 Stanford/Elsevier 全球前 2% 科学家。',
+        'Dr. Qing Li leads research in advanced electrochemical energy storage, with particular interests in aqueous zinc batteries, electrolyte engineering, interfacial chemistry, and battery materials.': '李清博士主要开展先进电化学储能研究，重点关注水系锌电池、电解液工程、界面化学和电池材料。',
+        'She has over two years of industrial R&D experience in battery technologies, connecting fundamental research with practical applications. Her projects are supported by the National Natural Science Foundation of China, the University of Macau, and industrial partners.': '她拥有两年以上电池技术产业研发经验，致力于连接基础研究与实际应用；相关项目获得国家自然科学基金、澳门大学及产业合作伙伴支持。',
+        'She has published over 80 peer-reviewed papers in journals including Nature Communications, Science Advances, Joule, Angewandte Chemie International Edition, and Advanced Materials.': '她已在 Nature Communications、Science Advances、Joule、Angewandte Chemie International Edition 和 Advanced Materials 等期刊发表 80 余篇同行评议论文。',
+        'Ph.D., Materials Science and Engineering, City University of Hong Kong, 2023 (HKPFS recipient)': '香港城市大学材料科学与工程博士，2023 年（香港博士研究生奖学金获得者）',
+        'M.Phil., Chemical and Biomolecular Engineering, The Hong Kong University of Science and Technology, 2017': '香港科技大学化学及生物分子工程哲学硕士，2017 年',
+        'M.S., Materials Science and Engineering, Tsinghua University, 2017': '清华大学材料科学与工程硕士，2017 年',
+        'B.S., Materials Chemistry, Central South University, 2014': '中南大学材料化学学士，2014 年',
+        'Aug 2024鈥損resent: Assistant Professor, Institute of Applied Physics and Materials Engineering, University of Macau': '2024 年 8 月至今：澳门大学应用物理及材料工程研究院助理教授',
+        '2023鈥?024: Postdoctoral Fellow, Department of Materials and Engineering, City University of Hong Kong (PDFS recipient)': '2023–2024 年：香港城市大学材料与工程系博士后（博士后研究奖学金获得者）',
+        '2018鈥?019: Product Design Engineer, Sunwoda Electronics Co., Ltd.': '2018–2019 年：欣旺达电子股份有限公司产品设计工程师',
+        '2017鈥?018: Engineer, Shenzhen Qingxin Power Research Institute': '2017–2018 年：深圳清新动力研究院工程师',
+        '2025 Stanford/Elsevier World鈥檚 Top 2% Scientist': '2025 年 Stanford/Elsevier 全球前 2% 科学家',
+        '2023 Hong Kong RGC Postdoctoral Fellowship, University Grants Committee (Hong Kong)': '2023 年香港研究资助局博士后奖学金，香港大学教育资助委员会',
+        '2022 Chow Yei Ching School of Graduate Studies Scholarship, City University of Hong Kong': '2022 年香港城市大学研究生院周亦卿奖学金',
+        '2019 Hong Kong PhD Fellowship, University Grants Committee (Hong Kong)': '2019 年香港博士研究生奖学金，香港大学教育资助委员会',
+        '2014 International Exchange Program Scholarship, China Scholarship Council': '2014 年国际交流项目奖学金，中国国家留学基金管理委员会',
+        '2012 National Scholarship, Ministry of Education of China': '2012 年国家奖学金，中华人民共和国教育部',
+        'Postdoctoral Researcher, Institute of Applied Physics and Materials Engineering, University of Macau; Ph.D., Wuhan University.': '澳门大学应用物理及材料工程研究院博士后；武汉大学博士。',
+        'Research: redox flow batteries. Published 8 first-author papers in related fields and applied for 8 invention patents.': '研究方向：液流电池。以第一作者在相关领域发表 8 篇论文，申请发明专利 8 项。',
+        'Postdoctoral Researcher, Institute of Applied Physics and Materials Engineering, University of Macau; Ph.D., Southeast University.': '澳门大学应用物理及材料工程研究院博士后；东南大学博士。',
+        'Research: MOF structural design for aqueous zinc-ion batteries. Published 10 papers as first or co-first author, including papers in Advanced Materials and Energy & Environmental Science (2 papers), and applied for 2 invention patents.': '研究方向：用于水系锌离子电池的 MOF 结构设计。以第一作者或共同第一作者发表 10 篇论文，其中包括 Advanced Materials 和 Energy & Environmental Science 论文（2 篇），申请发明专利 2 项。',
+        'Ph.D. Student, Institute of Applied Physics and Materials Engineering, University of Macau; M.S., Institute of Process Engineering, Chinese Academy of Sciences.': '澳门大学应用物理及材料工程研究院博士生；中国科学院过程工程研究所硕士。',
+        'Research: zinc-halogen flow batteries, aqueous zinc-ion batteries, and metal-chelate flow batteries. First author of 4 papers in Angewandte Chemie International Edition, Advanced Energy Materials, Chemical Engineering Journal, and ACS Applied Energy Materials; co-author of 6 papers, with 40 citations and 1 patent application. Amateur astrophotographer and intermediate judge at Xunjixingke.': '研究方向：锌卤素液流电池、水系锌离子电池和金属螯合物液流电池。以第一作者在 Angewandte Chemie International Edition、Advanced Energy Materials、Chemical Engineering Journal 和 ACS Applied Energy Materials 发表 4 篇论文，合作发表 6 篇论文，被引 40 次，申请专利 1 项。业余天文摄影师，担任巡星客中级评委。',
+        'Ph.D. Student, Institute of Applied Physics and Materials Engineering, University of Macau.': '澳门大学应用物理及材料工程研究院博士生。',
+        'Research: design of lithium-compensation materials, interfacial regulation, and mechanisms for long-life, high-energy-density lithium iron phosphate batteries. Published 2 papers in related fields and applied for 4 invention patents.': '研究方向：面向长寿命、高能量密度磷酸铁锂电池的补锂材料设计、界面调控及机理研究。在相关领域发表 2 篇论文，申请发明专利 4 项。',
+        'Ph.D. Student, Institute of Applied Physics and Materials Engineering, University of Macau; M.S., Xiamen University.': '澳门大学应用物理及材料工程研究院博士生；厦门大学硕士。',
+        'Research: battery interfacial evolution and the development of high-performance alkali-metal batteries. Published one first-author paper in Advanced Energy Materials and applied for 2 invention patents.': '研究方向：电池界面演化及高性能碱金属电池构建。以第一作者在 Advanced Energy Materials 发表 1 篇论文，申请发明专利 2 项。',
+        'Ph.D. Student, University of Macau.': '澳门大学博士生。',
+        'Research: materials computation and AI4S. Personality type: ENTJ. Outside research, he enjoys fitness, badminton, outdoor activities, and fishing and hunting.': '研究方向：材料计算和 AI4S。性格类型：ENTJ。业余时间喜欢健身、羽毛球，也喜欢户外活动和渔猎。',
+        'Research: renewable biomass resources for energy storage, with a focus on high-value biomass utilization, cellulose-based biomass separator fabrication, and applications in aqueous zinc-based batteries. First-author papers have appeared in Cellulose, Energy Materials and Devices, and Microporous and Mesoporous Materials.': '研究方向：可再生生物质资源在储能领域的应用开发，重点关注生物质资源高值化利用、纤维素基生物质隔膜制备及其在水系锌基电池中的应用。以第一作者在 Cellulose、Energy Materials and Devices 和 Microporous and Mesoporous Materials 等期刊发表论文。',
+        'Research: advanced functional materials and technologies for sustainable water resources. First-author papers have appeared in Cellulose and Environmental Research; applied for 2 invention patents.': '研究方向：面向水资源可持续发展的先进功能材料与技术。以第一作者在 Cellulose 和 Environmental Research 发表论文，申请发明专利 2 项。',
+        "Master's Student, Institute of Applied Physics and Materials Engineering, University of Macau; B.S., Harbin Institute of Technology.": '澳门大学应用物理及材料工程研究院硕士生；哈尔滨工业大学学士。',
+        'Research: energy-storage materials for zinc battery systems, currently focusing on the investigation and performance optimization of low-temperature-adapted electrolytes.': '研究方向：锌电池体系储能材料，现阶段聚焦低温适配电解液的探究与性能优化。',
+        "Joined Li's Lab in September 2025. B.S. in Chemical Engineering and Technology, Faculty of Chemical and Materials, Huaibei Normal University (September 2020 – June 2024).": '2025 年 9 月加入李老师课题组。淮北师范大学化学工程与工艺学士，化学与材料学院（2020 年 9 月–2024 年 6 月）。',
+        'Recipient of the Excellent Graduation Scholarship in 2024.': '2024 年优秀毕业奖学金获得者。',
+        'Joined the lab in September 2025. B.S., Beijing Institute of Petrochemical Technology (2023).': '2025 年 9 月加入课题组。北京石油化工学院学士，2023 年。',
+        "Master's Student, Institute of Applied Physics and Materials Engineering, University of Macau.": '澳门大学应用物理及材料工程研究院硕士生。',
+        'Research: aqueous zinc-bromine energy-storage batteries, focusing on electrolyte regulation, bromine valence-state conversion mechanisms, bromine-shuttle suppression strategies, and electrochemical performance optimization.': '研究方向：水系锌溴储能电池，聚焦电解液调控、溴价态转化机制、溴穿梭抑制策略和电化学性能优化。',
+        'Joined the lab in July 2026. B.S., Ningbo University.': '2026 年 7 月加入课题组。宁波大学学士。',
+        'Research: surface engineering, solid-state electrolytes, and materials computation. Published 4 first- or second-author papers in journals including Surface & Coatings Technology and Carbon; applied for 1 invention patent.': '研究方向：表面工程、固态电解质和材料计算。在 Surface & Coatings Technology、Carbon 等期刊以第一或第二作者发表 4 篇论文，申请发明专利 1 项。',
+        'Redox flow batteries; 8 first-author papers and 8 invention patent applications.': '液流电池；以第一作者发表 8 篇论文，申请发明专利 8 项。',
+        'MOF structural design for aqueous zinc-ion batteries; 10 first- or co-first-author papers and 2 patent applications.': '用于水系锌离子电池的 MOF 结构设计；以第一作者或共同第一作者发表 10 篇论文，申请专利 2 项。',
+        'Zinc-halogen flow batteries, aqueous zinc-ion batteries, and metal-chelate flow batteries; 4 first-author papers and 1 patent application.': '锌卤素液流电池、水系锌离子电池和金属螯合物液流电池；以第一作者发表 4 篇论文，申请专利 1 项。',
+        'Lithium-compensation materials, interface regulation, and mechanisms for long-life lithium iron phosphate batteries.': '长寿命磷酸铁锂电池的补锂材料、界面调控与机理研究。',
+        'Battery interfacial evolution and high-performance alkali-metal batteries; first-author paper in Advanced Energy Materials.': '电池界面演化与高性能碱金属电池；在 Advanced Energy Materials 发表第一作者论文。',
+        'Materials computation and AI4S; enjoys fitness, badminton, outdoor activities, and fishing and hunting.': '材料计算和 AI4S；喜欢健身、羽毛球、户外活动和渔猎。',
+        'Renewable biomass resources for energy storage, including cellulose-based separators for aqueous zinc batteries.': '可再生生物质资源储能应用，包括用于水系锌电池的纤维素基隔膜。',
+        'Advanced functional materials and technologies for sustainable water resources; 2 patent applications.': '面向水资源可持续发展的先进功能材料与技术；申请专利 2 项。',
+        'Zinc battery energy-storage materials, focusing on low-temperature-adapted electrolytes.': '锌电池储能材料，聚焦低温适配电解液。',
+        'Joined in September 2025; B.S. in Chemical Engineering and Technology, Huaibei Normal University; Excellent Graduation Scholarship recipient (2024).': '2025 年 9 月加入；淮北师范大学化学工程与工艺学士；2024 年优秀毕业奖学金获得者。',
+        'Joined in September 2025; B.S., Beijing Institute of Petrochemical Technology (2023).': '2025 年 9 月加入；北京石油化工学院学士（2023 年）。',
+        'Aqueous zinc-bromine energy-storage batteries, electrolyte regulation, bromine conversion, and shuttle suppression.': '水系锌溴储能电池、电解液调控、溴转化与溴穿梭抑制。',
+        'Surface engineering, solid-state electrolytes, and materials computation; 4 first- or second-author papers and 1 patent application.': '表面工程、固态电解质和材料计算；以第一或第二作者发表 4 篇论文，申请专利 1 项。',
+        'Peer-reviewed papers': '同行评议论文',
+        'Citations': '引用次数',
+        'Stanford/Elsevier Scientist': 'Stanford/Elsevier 科学家',
+        'View Full Profile & Credentials': '查看完整个人简介与履历',
+        'Intake: August each year.': '招生时间：每年 8 月。',
+        'Application deadline: Typically around January each year for UM-funded students and March for PI-funded students.': '申请截止时间：澳门大学资助项目通常为每年 1 月左右，导师资助项目通常为每年 3 月。',
+        'Financial support: Approximately MOP 12,500–20,000 per month, depending on the scholarship or assistantship awarded. Outstanding applicants may compete for the UM Macao PhD Scholarship, which provides a stipend of MOP 20,000 per month.': '资助待遇：根据获得的奖学金或助学金不同，每月约 12,500–20,000 澳门元。优秀申请者可竞争澳门大学澳门博士奖学金，每月津贴为 20,000 澳门元。',
+        'Academic background: Applicants should have a strong academic record. Candidates from leading universities, including Double First-Class universities and former Project 985/211 institutions in Mainland China, are particularly encouraged to apply. A competitive GPA and/or class ranking is advantageous for scholarship applications.': '学术背景：申请人应具有良好的学业成绩，尤其欢迎来自中国内地“双一流”高校及原 985/211 高校的候选人。具有竞争力的 GPA 和/或专业排名有助于奖学金申请。',
+        'English proficiency: Normally IELTS 6.0 or above, with no individual band below 5.5, or CET-6 around 430 or above, subject to the latest University admission requirements.': '英语要求：通常要求 IELTS 6.0 及以上且单项不低于 5.5，或大学英语六级约 430 分及以上，具体以学校最新招生要求为准。',
+        'Research experience: Previous research experience in batteries, electrochemistry, materials chemistry, computational materials science, or related areas is preferred. Applicants with publications or substantial research experience are particularly encouraged to apply.': '科研经历：优先考虑具有电池、电化学、材料化学、计算材料科学或相关领域研究经历的申请人，特别欢迎有论文或较丰富科研经历的候选人。',
+        'Remuneration: Approximately MOP 28,000 per month under standard postdoctoral appointments, with outstanding fellowship recipients potentially receiving up to approximately MOP 40,000 per month, depending on the appointment scheme.': '薪酬：标准博士后岗位约为每月 28,000 澳门元；优秀奖学金获得者根据聘用项目不同，最高可获得约每月 40,000 澳门元。',
+        'Application deadline: Calls are generally announced annually. Candidates are encouraged to check the official University announcement and contact us in advance for research discussions and application preparation.': '申请截止时间：相关项目通常每年发布通知，建议候选人关注学校官方公告，并提前联系我们进行研究交流和申请准备。',
+        'Candidates for the UM Postdoctoral Fellowship schemes should normally have obtained their PhD within the past two years, or expect to receive their PhD within approximately six months of the relevant application deadline.': '申请澳门大学博士后奖学金项目的候选人通常应在过去两年内获得博士学位，或预计在相关申请截止日期前后约六个月内获得博士学位。',
+        'Applicants should demonstrate a competitive research record through high-quality publications, academic achievements, and other research outputs.': '申请人应通过高质量论文、学术成就及其他科研成果展示具有竞争力的科研记录。',
+        'For the competitive UM Postdoctoral Fellowship, candidates are generally expected to have obtained their PhD from a highly ranked university or discipline, such as a university ranked within the Top 200 in THE/QS rankings or a Double First-Class university/discipline in Mainland China.': '对于竞争性澳门大学博士后奖学金，候选人通常应毕业于高排名高校或学科，例如 THE/QS 排名全球前 200 的高校，或中国内地“双一流”高校及学科。',
+        'For detailed admission deadlines and online applications, please visit the University of Macau doctoral programmes page.': '如需了解详细招生截止时间及在线申请流程，请访问<a href="https://grs.um.edu.mo/index.php/prospective-students/doctoral-degrees-programmes/" target="_blank" rel="noopener noreferrer">澳门大学博士项目页面</a>。',
+        'Please send your application to Prof. Qing Li (liqing@um.edu.mo), and indicate the position you are applying for in the email subject line.': '请将个人简历和研究兴趣简介发送至<a href="mailto:liqing@um.edu.mo">李清教授（liqing@um.edu.mo）</a>，并在邮件主题中注明申请岗位。',
+        'Address: University Avenue, Taipa, Macau, China': '地址：中国澳门氹仔大学大马路',
+        'University of Macau Research Building (N23)': '澳门大学研究大楼（N23）',
+        'Tel: +853 8822 4142': '电话：+853 8822 4142',
+        'Fax: +853 8822 2454': '传真：+853 8822 2454',
+        'Email: liqing@um.edu.mo': '邮箱：liqing@um.edu.mo',
+        'General enquiries: iapme.enquiry@um.edu.mo': '一般咨询：iapme.enquiry@um.edu.mo'
     };
 
     const translations = Object.keys(rawTranslations).reduce((result, key) => {
@@ -136,7 +216,9 @@
         return result;
     }, {});
 
-    let currentLanguage = 'en';
+    // Chinese is the default presentation for the lab site; visitors can
+    // switch to English with the language button, and their choice is saved.
+    let currentLanguage = 'zh';
     let applying = false;
 
     function normalize(value) {
@@ -177,13 +259,17 @@
         const selector = 'h1,h2,h3,h4,h5,p,li,a,button,span,strong,em';
         document.querySelectorAll(selector).forEach(element => {
             if (element.classList.contains('language-toggle') || element.closest('.language-toggle')) return;
-            // Translate the leaf element, never a parent such as <li> that
-            // contains a navigation link or a formatted paragraph.
-            if (element.children.length > 0) return;
             if (element.dataset.i18nEn) return;
 
             const textKey = normalize(element.textContent);
             const htmlKey = normalize(element.innerHTML);
+            // Navigation list items contain links; translate the link itself
+            // so the href and structure are never replaced.
+            if (element.tagName === 'LI' && element.querySelector('a')) return;
+            // Parent elements are safe only when an explicit full translation
+            // exists. This allows bios with <em> tags while avoiding partial
+            // translations that would destroy nested markup.
+            if (element.children.length > 0 && !translations[textKey] && !translations[htmlKey]) return;
             if (translations[textKey] || translations[htmlKey]) {
                 element.dataset.i18nEn = element.innerHTML;
                 element.dataset.i18nKey = translations[textKey] ? textKey : htmlKey;
@@ -227,7 +313,7 @@
     function initialize() {
         ensureToggle();
         const saved = localStorage.getItem(STORAGE_KEY);
-        setLanguage(saved === 'zh' ? 'zh' : 'en');
+        setLanguage(saved === 'en' ? 'en' : 'zh');
     }
 
     window.applySiteLanguage = function () {
