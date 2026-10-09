@@ -882,6 +882,16 @@ h2::before, h2::after {
     .nav-links li {
         margin: 0.5rem 0;
     }
+
+    .language-switch-item {
+        margin: 0.5rem 0 !important;
+        border-top: 1px solid #eee;
+        padding-top: 0.75rem;
+    }
+
+    .language-toggle {
+        min-width: 88px;
+    }
     
     .mobile-menu-btn {
         display: block;
@@ -912,6 +922,31 @@ h2::before, h2::after {
     border: none;
     cursor: pointer;
     padding: 0.5rem;
+}
+
+/* Language switcher added to the shared navigation by language.js. */
+.language-switch-item {
+    margin-left: 1.25rem !important;
+}
+
+.language-toggle {
+    border: 1px solid #1e88e5;
+    border-radius: 999px;
+    background: transparent;
+    color: #1769aa;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.82rem;
+    line-height: 1;
+    padding: 0.45rem 0.75rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.language-toggle:hover,
+.language-toggle:focus-visible {
+    background: #1e88e5;
+    color: #fff;
+    outline: none;
 }
 
 @media (max-width: 768px) {

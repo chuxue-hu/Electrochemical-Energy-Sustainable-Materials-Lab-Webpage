@@ -41,6 +41,27 @@
             height: auto;
         }
 
+        .splash-language-toggle {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            z-index: 100;
+            border: 1px solid rgba(255, 255, 255, 0.75);
+            border-radius: 999px;
+            padding: 8px 14px;
+            background: rgba(0, 0, 0, 0.18);
+            color: #fff;
+            cursor: pointer;
+            font: inherit;
+            font-size: 0.85rem;
+        }
+
+        .splash-language-toggle:hover,
+        .splash-language-toggle:focus-visible {
+            background: rgba(255, 255, 255, 0.22);
+            outline: none;
+        }
+
         .cover-container {
             position: relative;
             height: 100vh;
@@ -233,6 +254,11 @@
                 width: 120px;
                 top: 20px;
                 left: 20px;
+            }
+
+            .splash-language-toggle {
+                top: 20px;
+                right: 20px;
             }
 
             .content {
@@ -463,5 +489,6 @@
             }, 2000);
         });
     </script>
+    <script src="language.js"></script>
 </body>
 </html>

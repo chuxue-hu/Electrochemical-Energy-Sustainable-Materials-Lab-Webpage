@@ -34,6 +34,7 @@ function loadPublications() {
             `).join('');
 
             publicationsList.innerHTML = html;
+            if (window.applySiteLanguage) window.applySiteLanguage();
             initializeFilters();
         })
         .catch(error => console.error('Error loading publications:', error));

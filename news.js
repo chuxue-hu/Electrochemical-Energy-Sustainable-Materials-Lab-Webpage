@@ -33,6 +33,7 @@ function loadNews() {
             `}).join('');
 
             newsList.innerHTML = html;
+            if (window.applySiteLanguage) window.applySiteLanguage();
 
             // Initialize filters after loading
             initializeFilters();

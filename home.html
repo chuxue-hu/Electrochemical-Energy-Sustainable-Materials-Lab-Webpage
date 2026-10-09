@@ -399,6 +399,7 @@
                     `).join('');
 
                     publicationsGrid.innerHTML = html;
+                    if (window.applySiteLanguage) window.applySiteLanguage();
 
                     // Update publications count in stats section
                     const pubCountEl = document.querySelector('.stat-number[data-target-publications]');
@@ -442,9 +443,11 @@
                     `}).join('');
 
                     newsGrid.innerHTML = html;
+                    if (window.applySiteLanguage) window.applySiteLanguage();
                 })
                 .catch(error => console.error('Error loading news:', error));
         }
     </script>
+    <script src="language.js"></script>
 </body>
 </html>
