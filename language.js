@@ -168,6 +168,7 @@
         'Ph.D. Student, Institute of Applied Physics and Materials Engineering, University of Macau.': '澳门大学应用物理及材料工程研究院博士生。',
         'Research: design of lithium-compensation materials, interfacial regulation, and mechanisms for long-life, high-energy-density lithium iron phosphate batteries. Published 2 papers in related fields and applied for 4 invention patents.': '研究方向：面向长寿命、高能量密度磷酸铁锂电池的补锂材料设计、界面调控及机理研究。在相关领域发表 2 篇论文，申请发明专利 4 项。',
         'Ph.D. Student, Institute of Applied Physics and Materials Engineering, University of Macau; M.S., Xiamen University.': '澳门大学应用物理及材料工程研究院博士生；厦门大学硕士。',
+        'Ph.D. Student, Institute of Applied Physics and Materials Engineering, University of Macau; M.S., Southwest University.': '澳门大学应用物理及材料工程研究院博士生；西南大学硕士。',
         'Research: battery interfacial evolution and the development of high-performance alkali-metal batteries. Published one first-author paper in Advanced Energy Materials and applied for 2 invention patents.': '研究方向：电池界面演化及高性能碱金属电池构建。以第一作者在 Advanced Energy Materials 发表 1 篇论文，申请发明专利 2 项。',
         'Ph.D. Student, University of Macau.': '澳门大学博士生。',
         'Research: materials computation and AI4S. Personality type: ENTJ. Outside research, he enjoys fitness, badminton, outdoor activities, and fishing and hunting.': '研究方向：材料计算和 AI4S。性格类型：ENTJ。业余时间喜欢健身、羽毛球，也喜欢户外活动和渔猎。',
