@@ -1769,6 +1769,20 @@ h2::before, h2::after {
     justify-content: center;
 }
 
+.pi-image .pi-profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pi-profile-links .social-link {
+    flex: 0 0 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+}
+
 .social-link {
     display: flex;
     align-items: center;
@@ -1782,7 +1796,8 @@ h2::before, h2::after {
     transition: all 0.3s ease;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus-visible {
     background-color: var(--secondary-color);
     color: white;
     transform: translateY(-3px);
