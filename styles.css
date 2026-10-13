@@ -1724,6 +1724,22 @@ h2::before, h2::after {
     margin-top: 1rem;
 }
 
+.full-publication-list {
+    margin: 2.5rem auto 0;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-top: 1px solid #d5e4f3;
+    color: #555;
+}
+
+.full-publication-list .academic-links {
+    margin-top: 0.75rem;
+}
+
+.full-publication-list a {
+    gap: 0.5rem;
+}
+
 .academic-links a {
     display: inline-flex;
     align-items: center;

@@ -10,6 +10,8 @@
         'Home': '首页',
         'Publication': '论文发表',
         'Publications': '论文发表',
+        'Publications(selected)': '论文发表（精选）',
+        'For full publication list, please refer to Google Scholar.': '完整论文列表请参阅 Google Scholar。',
         'Team': '团队',
         'News': '新闻',
         'Gallery': '图库',
