@@ -7,8 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function sortByDate() {
         const items = Array.from(timelineItems);
         items.sort((a, b) => {
-            const dateA = new Date(a.dataset.date);
-            const dateB = new Date(b.dataset.date);
+            // Undated photos follow the dated entries; month-only dates use
+            // the first day solely as a sorting key, not as a displayed date.
+            const dateA = a.dataset.date ? new Date(a.dataset.date).getTime() : 0;
+            const dateB = b.dataset.date ? new Date(b.dataset.date).getTime() : 0;
             return dateB - dateA; // 降序排列，最新的在前
         });
 
