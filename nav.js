@@ -1,4 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const navbar = document.querySelector('.navbar');
+    if (navbar && !navbar.querySelector('.institute-link')) {
+        const instituteLink = document.createElement('a');
+        instituteLink.className = 'institute-link';
+        instituteLink.href = 'https://iapme.um.edu.mo/';
+        instituteLink.target = '_blank';
+        instituteLink.rel = 'noopener noreferrer';
+        instituteLink.title = 'Institute of Applied Physics and Materials Engineering';
+        instituteLink.setAttribute('aria-label', 'IAPME homepage');
+        instituteLink.textContent = 'IAPME';
+        navbar.appendChild(instituteLink);
+    }
     const menuBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');
 

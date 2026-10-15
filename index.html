@@ -401,9 +401,23 @@
                 gap: 5px;
             }
         }
+        .splash-institute-link {
+            position: absolute;
+            top: 34px;
+            right: 135px;
+            z-index: 100;
+            color: white;
+            font: 700 20px/1.2 Arial, sans-serif;
+            letter-spacing: 0.08em;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .splash-institute-link { top: 25px; right: 115px; font-size: 16px; }
+        }
     </style>
 </head>
 <body>
+    <a class="splash-institute-link" href="https://iapme.um.edu.mo/" target="_blank" rel="noopener noreferrer" aria-label="IAPME homepage" title="Institute of Applied Physics and Materials Engineering">IAPME</a>
     <a href="https://www.um.edu.mo/" aria-label="University of Macau Link">
         <img src="images/um_logo_white0.png" alt="University of Macau" class="logo">
     </a>

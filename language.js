@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    const STORAGE_KEY = 'eESM-lab-language';
+    const STORAGE_KEY = 'eESM-lab-language-v2';
 
     // Keep publication titles, author names, and technical names in English.
     // The interface and explanatory copy below are translated locally so the
@@ -28,6 +28,10 @@
         'Group Photos': '课题组照片',
         'Events': '活动',
         'Photo Gallery': '照片图库',
+        'Oct 2026': '2026 年 10 月',
+        'Dr. Qing Li Recognized as a 2026 World’s Top 2% Scientist': '李清博士入选 2026 年全球前 2% 科学家',
+        'Dr. Qing Li has been recognized as one of Stanford/Elsevier’s World’s Top 2% Scientists for 2026.': '李清博士入选 2026 年 Stanford/Elsevier 全球前 2% 科学家榜单。',
+        'Back to News': '返回新闻',
         'Lab Group Photo 1': '课题组合影（一）',
         'Lab Group Photo 2': '课题组合影（二）',
         'Our lab members together.': '课题组成员合影。',
@@ -246,9 +250,8 @@
         return result;
     }, {});
 
-    // Chinese is the default presentation for the lab site; visitors can
-    // switch to English with the language button, and their choice is saved.
-    let currentLanguage = 'zh';
+    // English is the default; visitors may explicitly choose Chinese.
+    let currentLanguage = 'en';
     let applying = false;
 
     function normalize(value) {
@@ -343,7 +346,7 @@
     function initialize() {
         ensureToggle();
         const saved = localStorage.getItem(STORAGE_KEY);
-        setLanguage(saved === 'en' ? 'en' : 'zh');
+        setLanguage(saved === 'zh' ? 'zh' : 'en');
     }
 
     window.applySiteLanguage = function () {

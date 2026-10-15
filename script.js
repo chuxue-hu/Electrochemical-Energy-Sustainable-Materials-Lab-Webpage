@@ -1,42 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
     // 将所有的初始化代码放在这里
     initializeSliders();
-    initializeStats();
     initializeHeroSlider();
     
     // 添加 gallery 的初始化
     initializeGallery();
 });
-
-// 优化统计数字的动画
-function initializeStats() {
-    const stats = document.querySelectorAll('.stat-number:not([data-target-publications])');
-    
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const target = parseInt(entry.target.getAttribute('data-target'));
-                animateValue(entry.target, 0, target, 2000);
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.5 });
-
-    stats.forEach(stat => observer.observe(stat));
-}
-
-function animateValue(element, start, end, duration) {
-    let startTimestamp = null;
-    const step = (timestamp) => {
-        if (!startTimestamp) startTimestamp = timestamp;
-        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-        element.textContent = Math.floor(progress * (end - start) + start);
-        if (progress < 1) {
-            window.requestAnimationFrame(step);
-        }
-    };
-    window.requestAnimationFrame(step);
-}
 
 // 优化滑块初始化
 function initializeSliders() {
