@@ -2,6 +2,7 @@
   "news": [
     {
       "id": "2026-10-15-qing-li-top-scientist",
+      "featured": true,
       "title": "Dr. Qing Li Recognized as a 2026 World’s Top 2% Scientist",
       "date": "2026-10-15",
       "year": 2026,
@@ -11,8 +12,8 @@
     {
       "id": "2026-12-30-alkaline-flow-membrane-publication",
       "title": "New Publication in Advanced Science",
-      "date": "2026-12-30",
-      "year": 2026,
+      "date": "2025-12-30",
+      "year": 2025,
       "summary": "We are excited to share a new publication in <strong><em>Advanced Science</em></strong>: <strong>Fixed-Linkage Enabled Ultra-Stable Ion Transport Channels in Membranes for Long-Life Alkaline Flow Batteries</strong>. The work shows how carefully engineered membrane channels can support more durable alkaline flow batteries.",
       "link": "news/2026-12-30-alkaline-flow-membrane-publication.html"
     },

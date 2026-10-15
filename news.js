@@ -9,9 +9,9 @@ function loadNews() {
             const newsList = document.getElementById('news-list');
             if (!newsList) return;
 
-            // Sort by date (newest first)
+            // Featured news first, then date (newest first).
             const sortedNews = data.news
-                .sort((a, b) => new Date(b.date) - new Date(a.date));
+                .sort((a, b) => Number(!!b.featured) - Number(!!a.featured) || new Date(b.date) - new Date(a.date));
 
             // Generate HTML
             const html = sortedNews.map(item => {

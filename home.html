@@ -145,7 +145,7 @@
                         <div class="pi-highlights" aria-label="Research profile highlights">
                             <div><strong>80+</strong><span>Peer-reviewed papers</span></div>
                             <div><strong>10,000+</strong><span>Citations</span></div>
-                            <div><strong>47</strong><span>h-index</span></div>
+                            <div><strong>49</strong><span>h-index</span></div>
                             <div><strong>Top 2%</strong><span>Stanford/Elsevier Scientist</span></div>
                         </div>
                         <a href="team.html" class="profile-link">View Full Profile &amp; Credentials <i class="fas fa-arrow-right"></i></a>
@@ -389,9 +389,9 @@
                     const newsGrid = document.getElementById('home-news-grid');
                     if (!newsGrid) return;
 
-                    // Sort by date (newest first) and take first 9
+                    // Featured news first, then date (newest first).
                     const sortedNews = data.news
-                        .sort((a, b) => new Date(b.date) - new Date(a.date))
+                        .sort((a, b) => Number(!!b.featured) - Number(!!a.featured) || new Date(b.date) - new Date(a.date))
                         .slice(0, 9);
 
                     // Generate HTML
