@@ -38,7 +38,7 @@
         'Invited Talk at AMIC 2025 in Singapore': '新加坡 AMIC 2025 受邀学术报告',
         'Prof. Li gave an invited talk at AMIC 2025 in Singapore.': '李清教授在新加坡 AMIC 2025 作受邀报告。',
         'Oct 2026': '2026 年 10 月',
-        'Dr. Qing Li Recognized as a 2026 World’s Top 2% Scientist': '李清博士入选 2026 年全球前 2% 科学家',
+        'Congratulations to Dr. Qing Li — a 2026 World’s Top 2% Scientist!': '祝贺李清博士入选 2026 年全球前 2% 科学家！',
         'Dr. Qing Li has been recognized as one of Stanford/Elsevier’s World’s Top 2% Scientists for 2026.': '李清博士入选 2026 年 Stanford/Elsevier 全球前 2% 科学家榜单。',
         'Back to News': '返回新闻',
         'Lab Group Photo 1': '课题组合影（一）',
