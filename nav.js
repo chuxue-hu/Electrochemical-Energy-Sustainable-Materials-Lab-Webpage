@@ -1,3 +1,5 @@
+const instituteLogoUrl = new URL('logo/IAMPE_logo.png', document.currentScript.src).href;
+
 document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.querySelector('.navbar');
     if (navbar && !navbar.querySelector('.institute-link')) {
@@ -8,7 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
         instituteLink.rel = 'noopener noreferrer';
         instituteLink.title = 'Institute of Applied Physics and Materials Engineering';
         instituteLink.setAttribute('aria-label', 'IAPME homepage');
-        instituteLink.textContent = 'IAPME';
+        const instituteLogo = document.createElement('img');
+        instituteLogo.src = instituteLogoUrl;
+        instituteLogo.alt = 'IAPME';
+        instituteLink.appendChild(instituteLogo);
         navbar.appendChild(instituteLink);
     }
     const menuBtn = document.querySelector('.mobile-menu-btn');
