@@ -2175,7 +2175,7 @@ h2::before, h2::after {
 
 .news-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 两列布局 */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2rem;
     padding: 1rem;
     max-width: var(--content-max-width);
@@ -2242,6 +2242,63 @@ h2::before, h2::after {
 }
 
 /* View All Button Styles */
+.news-page .news-list {
+    width: 100%;
+    min-width: 0;
+}
+
+.news-page .news-item {
+    min-width: 0;
+    width: 100%;
+    height: auto;
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-page .news-item h3 {
+    display: block;
+    height: auto;
+    max-height: none;
+    white-space: normal;
+    overflow: visible;
+    overflow-wrap: anywhere;
+    -webkit-line-clamp: unset;
+}
+
+.news-page .news-item .news-content {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    flex: 0 0 auto;
+}
+
+.news-page .news-item .news-link {
+    position: static;
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.news-page .news-filters {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+    .news-page .news-list {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .news-page .news-list .news-item {
+        width: 100% !important;
+        min-height: 0;
+    }
+
+    .news-page .news-item .news-link {
+        margin-top: 1rem !important;
+    }
+}
+
 .view-all-container {
     text-align: center;
     margin: 0.5rem 0;
