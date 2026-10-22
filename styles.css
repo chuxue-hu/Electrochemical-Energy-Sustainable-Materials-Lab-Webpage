@@ -1931,7 +1931,7 @@ h2::before, h2::after {
 
 /* 添加主标题的装饰元素 */
 .people-page h1::before {
-    content: '⚡';
+    content: none;
     position: absolute;
     top: -2rem;
     left: 50%;
@@ -3087,7 +3087,7 @@ h2::before, h2::after {
 }
 
 .publications-page h1::before {
-    content: '📖';
+    content: none;
     position: absolute;
     top: -2rem;
     left: 50%;
@@ -3098,7 +3098,7 @@ h2::before, h2::after {
 }
 
 .news-page h1::before {
-    content: '📰';
+    content: none;
     position: absolute;
     top: -2rem;
     left: 50%;
@@ -3164,7 +3164,7 @@ h2::before, h2::after {
 }
 
 .gallery-page h1::before {
-    content: '📸';
+    content: none;
     position: absolute;
     top: -2rem;
     left: 50%;
