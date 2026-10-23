@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Static website for the Computational Materials Lab @ Westlake University. No build step, no dependencies, no tests, no package manager — plain HTML/CSS/vanilla JS deployed directly to GitHub Pages.
+Static website for the Electrochemical Energy & Sustainable Materials Lab @ University of Macau. No build step, no dependencies, no tests, no package manager — plain HTML/CSS/vanilla JS deployed directly to GitHub Pages.
 
 ## Deploy
 

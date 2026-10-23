@@ -42,7 +42,7 @@ A publication is a single object in `publications.json`. There is no per-paper H
 1. **Add an object to the `publications` array in `publications.json`**. Insert position: the array is roughly newest-first, but `publications.js` re-sorts by `date` on load, so exact position only matters for diff readability. Fields:
    - `id`: `<YYYY-MM-DD>-<tag>` (e.g. `2026-07-15-JMCA`). The `image` filename usually mirrors this.
    - `title`: full paper title.
-   - `authors`: comma-separated, with corresponding authors marked `*` (e.g. `..., Yizhou Zhu*, Yongyao Xia*`). The `*` renders as a literal asterisk.
+   - `authors`: comma-separated, with corresponding authors marked `*` (e.g. `..., Li, Q.*`). The `*` renders as a literal asterisk.
    - `journal`: full citation string. If the paper has no volume/page yet, append ` (online)` — e.g. `J. Mater. Chem. A, 2026 (online)`.
    - `year`: integer.
    - `date`: `YYYY-MM-DD` — drives sort order.
@@ -74,7 +74,7 @@ Member data is hardcoded in `<div class="member-card">` blocks in both `team.htm
 - `team.html` — the full team page. Sections: Principal Investigator (`.pi-card`), Postdoctoral Researchers, Ph.D. Students, Master’s Students, Research Assistants. Each member is a `<div class="member-card">`.
 - `home.html` — the homepage "Members" slider (around line 141) shows a subset of members. It is a separate copy of the cards.
 - There is no active people data JS file; update the two HTML copies directly.
-- Member photos live in `images/` (e.g. `images/yanzihan.jpg`).
+- Member photos live in `images/` (e.g. `images/li_zhaoxin.jpg`).
 
 ### Adding a new member
 1. Add the photo to `images/`.
