@@ -1,4 +1,4 @@
-const instituteLogoUrl = new URL('logo/IAMPE_logo.png', document.currentScript.src).href;
+const instituteLogoUrl = new URL('logo/IAMPE_logo_transparent.png', document.currentScript.src).href;
 
 document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.querySelector('.navbar');
